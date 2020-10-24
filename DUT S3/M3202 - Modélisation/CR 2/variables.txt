@@ -1,0 +1,19 @@
+Au moins trois analyses univariées :
+
+    Une variable qualitative nominale : la  nationalité
+    Une variable qualitative ordinale : la date de sortie
+    Une variable quantitative continue : Nb de films par intervales d'entrées DONE
+
+Les graphiques devront respectés les règles données en cours. Vous avez le droit de ne pas respecter les règles, mais il faut expliquer pourquoi. On fera attention aux axes, aux titres...En gros, ils doivent être parfaits
+
+Au moins trois analyses bivariées :
+
+    une variable qualitative et une quantitative : proportion d'entrées par pays de production DONE
+    deux variables qualitatives : Nb de films sortis par pays en fonction des saisons DONE
+    deux autres variables au choix : Proportion d'entrées par type de films en france DONE
+
+Là encore, les tableaux et graphiques utilisés devront être les plus pertinents possibles.
+
+Par ailleurs, chaque traitement bivarié peut en général répondre à une question qui s'exprime en langage courant 
+(par exemple, "la répartition homme/femme est-elle la même selon l'origine géographique). 
+Vous exrpimerez clairement ces questions pour chaque analyse effectuée. 
