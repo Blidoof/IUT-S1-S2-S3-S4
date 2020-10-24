@@ -1,0 +1,32 @@
+1.b OK
+2.a NOK b
+3.b OK
+4.c OK
+5.b OK
+6.b OK
+7.a OK
+8.c OK
+9.a OK
+10.d OK
+11.d OK
+12.a OK
+13.c OK
+14.c OK
+15.c OK
+16.b OK
+17.c OK
+18.c OK
+19.c OK
+20.b OK
+21.c OK
+22.d OK
+23.a OK
+24.c OK
+25.a OK
+26.b OK
+27.a OK
+28.b OK
+29.b OK 
+30.d NOK a
+
+28/30

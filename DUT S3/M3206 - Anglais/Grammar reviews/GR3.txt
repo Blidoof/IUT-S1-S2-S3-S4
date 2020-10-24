@@ -1,0 +1,37 @@
+1.a OK
+2.b OK
+3.d OK
+4.b OK
+5.c OK
+6.c OK
+7.d OK
+8.a OK
+9.d OK
+10.a OK
+11.b OK
+12.c OK
+13.d OK
+14.a OK
+15.c OK
+16.b OK
+17.b OK
+18.c OK
+19.b NOK a
+20.b OK
+21.a NOK b
+22.d OK
+23.b OK
+24.c OK
+25.a OK
+26.d OK
+27.d OK
+28.d OK
+29.a OK
+30.c OK
+31.b OK
+32.a OK
+33.b OK
+34.d OK
+35.a OK
+
+33 / 35
