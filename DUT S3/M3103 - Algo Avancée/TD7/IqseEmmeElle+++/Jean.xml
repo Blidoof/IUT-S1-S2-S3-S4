@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tournoi>
+  <nom>Superbowl</nom>
+  <equipes>
+    <equipe>
+      <nom>Cardinals</nom>
+      <joueurs>
+        <joueur titulaire="true">
+          <nom>Lee</nom>
+          <prenom>Andy</prenom>
+          <poste>P</poste>
+          <numero>2</numero>
+        </joueur>
+        <joueur titulaire="true">
+          <nom>Fitzgerald</nom>
+          <prenom>Larry</prenom>
+          <poste>WR</poste>
+          <numero>11</numero>
+        </joueur>
+        <joueur titulaire="false">
+          <nom>Ford</nom>
+          <prenom>Rudy</prenom>
+          <poste>DB</poste>
+          <numero>30</numero>
+        </joueur>
+      </joueurs>
+    </equipe>
+    <equipe>
+      <nom>Eagles</nom>
+      <joueurs>
+        <joueur titulaire="false">
+          <nom>Foles</nom>
+          <prenom>Nick</prenom>
+          <poste>QB</poste>
+          <numero>9</numero>
+        </joueur>
+        <joueur titulaire="true">
+          <nom>Agholor</nom>
+          <prenom>Nelson</prenom>
+          <poste>WR</poste>
+          <numero>13</numero>
+        </joueur>
+        <joueur titulaire="true">
+          <nom>Jenkins</nom>
+          <prenom>Malcolm</prenom>
+          <poste>SS</poste>
+          <numero>27</numero>
+        </joueur>
+      </joueurs>
+    </equipe>
+    <equipe>
+      <nom>Patriots</nom>
+      <joueurs>
+        <joueur titulaire="true">
+          <nom>Brady</nom>
+          <prenom>Tom</prenom>
+          <poste>QB</poste>
+          <numero>12</numero>
+        </joueur>
+        <joueur titulaire="true">
+          <nom>Hogan</nom>
+          <prenom>Chris</prenom>
+          <poste>WR</poste>
+          <numero>15</numero>
+        </joueur>
+        <joueur titulaire="true">
+          <nom>Gostkowski</nom>
+          <prenom>Stephen</prenom>
+          <poste>K</poste>
+          <numero>3</numero>
+        </joueur>
+      </joueurs>
+    </equipe>
+  </equipes>
+  <palmares>
+    <vainqueur annee="2018">Eagles</vainqueur>
+    <vainqueur annee="2017">Patriots</vainqueur>
+  </palmares>
+</tournoi>

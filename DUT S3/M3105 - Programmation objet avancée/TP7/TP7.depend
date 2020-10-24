@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1578565736 source:\\jaizkibel\info\amurillo\desktop\tp7\main.cpp
+	"ElementsDeJeu.h"
+	"MoteurDeJeu.h"
+
+1578564972 \\jaizkibel\info\amurillo\desktop\tp7\elementsdejeu.h
+	<windows.h>
+	<conio.h>
+	<stdio.h>
+	<iostream>
+	<list>
+
+1578569526 \\jaizkibel\info\amurillo\desktop\tp7\moteurdejeu.h
+	<windows.h>
+	<conio.h>
+	<time.h>
+	<stdlib.h>
+	<stdio.h>
+	<iostream>
+	<assert.h>
+	"ElementsDeJeu.h"
+

@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1574947912 source:c:\users\jodo kast\google drive\dut s3\m3105 - programmation objet avancée\tp4\src\produits.cpp
+	"Produits.h"
+
+1574947901 c:\users\jodo kast\google drive\dut s3\m3105 - programmation objet avancée\tp4\include\produits.h
+	<iostream>
+
+1574953365 source:c:\users\jodo kast\google drive\dut s3\m3105 - programmation objet avancée\tp4\main.cpp
+	<iostream>
+	<map>
+	"Produits.h"
+	<list>
+	<algorithm>
+	"Pieces.h"
+
+1574953417 c:\users\jodo kast\google drive\dut s3\m3105 - programmation objet avancée\tp4\include\pieces.h
+	<iostream>
+
+1574953417 source:c:\users\jodo kast\google drive\dut s3\m3105 - programmation objet avancée\tp4\src\pieces.cpp
+	"Pieces.h"
+

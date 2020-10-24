@@ -1,0 +1,119 @@
+-- PROCEDURE CHANGER DEPT
+
+CREATE OR REPLACE PROCEDURE AFFECTER_EMP_DEPT 
+(
+  EMPLO IN VARCHAR2 
+, NOUV_DEPT IN NUMBER
+) AS 
+
+BEGIN
+  UPDATE EMP SET EMP.NUMDEP = NOUV_DEPT WHERE EMP.NOM_COMPLET = EMPLO;
+  
+END AFFECTER_EMP_DEPT;
+
+--¨PROCEDURE RETURN VRAI SI DEPT EXISTE
+
+CREATE OR REPLACE FUNCTION EXIST_EMP 
+(
+  EMPLO IN VARCHAR2 
+) RETURN BOOLEAN AS 
+
+CURSOR employes IS SELECT EMP.NOM_COMPLET FROM EMP;
+exist BOOLEAN;
+
+BEGIN
+exist := FALSE;
+
+
+  FOR employe in employes LOOP
+    IF EMPLO = employe.NOM_COMPLET
+    THEN 
+    exist := TRUE;
+    END IF;
+    END LOOP;
+
+  commit;
+  RETURN exist;
+  
+END EXIST_EMP;
+
+--FONCTION RETURN SI EMPLOYE FAIT PARTIE OU NON DU DERPARTEMENT
+
+CREATE OR REPLACE FUNCTION APP_EMP_DEPT 
+(
+  EMPLO IN VARCHAR2 
+, DEPART IN NUMBER 
+) RETURN VARCHAR2 AS 
+
+retour VARCHAR2(70);
+departement EMP.NUMDEP%TYPE;
+nomdepart DEPT.NOMDEP%TYPE;
+
+BEGIN
+
+SELECT dept.nomdep INTO nomdepart FROM DEPT WHERE DEPT.NUMDEP = DEPART;
+SELECT NUMDEP INTO departement FROM EMP WHERE NOM_COMPLET = EMPLO;
+
+IF departement = DEPART THEN
+retour := 'Cet employé appartient au département ' || nomdepart;
+ELSE
+retour := 'Cet employé n''appartient pas au département ' || nomdepart;
+END IF;
+
+RETURN retour;
+
+END APP_EMP_DEPT;
+
+--PROCEDURE MISE A JOUR SALAIRES
+
+CREATE OR REPLACE PROCEDURE MAJ_EMP AS 
+
+CURSOR recherche IS SELECT salaire, NUMEMP FROM EMP WHERE NUMDEP = 1;
+CURSOR developpement IS SELECT salaire, NUMEMP FROM EMP WHERE NUMDEP = 2;
+CURSOR facturation IS SELECT salaire, NUMEMP FROM EMP WHERE NUMDEP = 3;
+CURSOR direction IS SELECT salaire, NUMEMP FROM EMP WHERE NUMDEP = 4;
+
+newsal EMP.SALAIRE%TYPE;
+
+moyenneActu NUMBER(15);
+
+BEGIN
+
+--On calcule la moyenne actuelle des salaires pour le département facturation
+SELECT AVG(salaire) INTO moyenneActu FROM EMP;
+
+--Departement RECHERCHE
+FOR employe in recherche LOOP
+
+newsal:=employe.salaire+200;
+--
+UPDATE EMP SET SALAIRE=newsal where NUMEMP = employe.numemp;
+END LOOP;
+
+--Departement DEVELOPPEMENT
+FOR employe in developpement LOOP
+
+newsal:=employe.salaire+40;
+--
+UPDATE EMP SET SALAIRE=newsal where NUMEMP = employe.numemp;
+END LOOP;
+
+--Departement FACTURATION
+FOR employe in facturation LOOP
+
+newsal:=moyenneActu;
+--
+UPDATE EMP SET SALAIRE=newsal where NUMEMP = employe.numemp;
+END LOOP;
+
+--Departement DIRECTION
+FOR employe in direction LOOP
+
+newsal:=employe.salaire*2;
+--
+UPDATE EMP SET SALAIRE=newsal where NUMEMP = employe.numemp;
+END LOOP;
+  
+
+commit;
+END MAJ_EMP;

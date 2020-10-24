@@ -1,0 +1,86 @@
+--TRIGGER 1
+
+CREATE OR REPLACE TRIGGER NB_TUPLES 
+AFTER DELETE OR INSERT ON DEPT
+DECLARE
+compteur NUMBER(5);
+BEGIN
+  SELECT COUNT(NUMDEP) INTO compteur FROM DEPT;
+  dbms_output.put_line('Nombre de départements : ' || compteur);
+END;
+
+	--test
+	set serveroutput on;
+	INSERT INTO DEPT VALUES(5,'VENTE','Pau');
+	
+	--Résultat :
+	--Nombre de départements : 5
+	
+--TRIGGER 2
+
+CREATE OR REPLACE TRIGGER PREFIXAGE
+BEFORE INSERT ON DEPT
+FOR EACH ROW;
+DECLARE
+BEGIN
+  :New.NOMDEP := 'DEPT_' || :New.NOMDEP;
+END;
+
+	--test
+	set serveroutput on;
+	INSERT INTO DEPT VALUES(5,'VENTE','Pau');
+	
+	--Résultat :
+	--DEPT_VENTE
+	
+--TRIGGER 3
+
+CREATE SEQUENCE MONCOMPTEUR INCREMENT BY 1 START BY 20;
+
+
+CREATE OR REPLACE TRIGGER USAGE_COMPTEUR 
+BEFORE INSERT ON EMP 
+FOR EACH ROW
+BEGIN
+  :New.NUMEMP := MONCOMPTEUR.NEXTVAL;
+END;
+
+	--test
+	set serveroutput on;
+	INSERT INTO EMP VALUES(67,'TEST','test',1,1,1,COORDONNEE('Pau',64600,'000',NULL));
+	
+	--Résultat :
+	--NUMEMP de 'TEST' = 20
+
+--TRIGGER 4
+CREATE SEQUENCE MONCOMPTEUR INCREMENT BY 1 START BY 20;
+
+create or replace TRIGGER USAGE_COMPTEUR 
+BEFORE INSERT ON EMP 
+FOR EACH ROW
+DECLARE
+
+n NUMBER(3);
+
+BEGIN
+
+:New.NUMEMP := MONCOMPTEUR.NEXTVAL;
+
+SELECT COUNT(*) INTO n FROM DEPT WHERE numdep = :New.numdep;
+
+  IF n = 0 THEN
+  
+    INSERT INTO DEPT VALUES(:New.numdep, 'NON ATTRIBUE', 'INCONNU');
+    
+  END IF;
+  
+END;
+
+	--test
+	set serveroutput on;
+	INSERT INTO EMP VALUES(67,'TEST','test',1,1,1,COORDONNEE('Pau',64600,'000',NULL));
+	
+	--Résultat :
+	--NUMEMP de 'TEST' = 20
+	--Department 7 de nom 'NON ATTRIBUE' et de localisation 'INCONNU' créé
+	

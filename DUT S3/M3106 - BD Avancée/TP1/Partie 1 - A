@@ -1,0 +1,38 @@
+set serverouput on;
+
+DECLARE
+--Compte le nombre de tuples dans la table
+n NUMBER(2);
+
+-- équivalent du recordset
+CURSOR employes IS SELECT numemp, nom_complet, salaire FROM EMP;
+
+--Variable tampon pour les salaires
+newsal emp.salaire%TYPE;
+
+--Exception EMPV
+empv EXCEPTION;
+
+BEGIN
+--On compte le nombre de tuples dans la table
+SELECT COUNT(*)INTO n FROM EMP;
+
+--Si aucun tuple
+IF n=0 THEN
+
+-- levée de l'exception
+RAISE empv;
+END IF;
+--Boucle sur les tuples
+FOR employe IN employes LOOP
+--
+newsal:=employe.salaire+50;
+--
+UPDATE EMP SET SALAIRE=newsal where NUMEMP = employe.numemp;
+END LOOP;
+Commit;
+--
+EXCEPTION
+--erreur : table vide affichage du message
+WHEN empv THEN dbms_output.put_line('Table vide !');
+END;

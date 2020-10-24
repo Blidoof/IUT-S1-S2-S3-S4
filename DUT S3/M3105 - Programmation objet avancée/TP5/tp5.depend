@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1575475885 source:c:\users\carduin-o\desktop\tp5\main.cpp
+	<iostream>
+
+1575476399 source:c:\users\carduin-o\desktop\tp5\src\singletondirecteuriut.cpp
+	"SingletonDirecteurIut.h"
+
+1575476169 c:\users\carduin-o\desktop\tp5\include\singletondirecteuriut.h
+	<iostream>
+

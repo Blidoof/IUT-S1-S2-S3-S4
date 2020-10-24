@@ -1,0 +1,39 @@
+# depslib dependency file v1.0
+1573222432 source:c:\users\carduin-o\desktop\tp1\main.cpp
+	<iostream>
+	"Individu.h"
+	"Voiture.h"
+
+1573223555 source:c:\users\carduin-o\desktop\tp1\src\individu.cpp
+	"Individu.h"
+
+1573222083 c:\users\carduin-o\desktop\tp1\include\individu.h
+	"Voiture.h"
+	<iostream>
+
+1573223291 source:c:\users\carduin-o\desktop\tp1\src\voiture.cpp
+	"Voiture.h"
+
+1573222148 c:\users\carduin-o\desktop\tp1\include\voiture.h
+	"Individu.h"
+	<iostream>
+
+1573227984 source:c:\users\carduin-o\google drive\dut s3\m3105 - programmation objet avancée\tp1\main.cpp
+	<iostream>
+	"Individu.h"
+	"Voiture.h"
+
+1573222083 c:\users\carduin-o\google drive\dut s3\m3105 - programmation objet avancée\tp1\include\individu.h
+	"Voiture.h"
+	<iostream>
+
+1573227828 c:\users\carduin-o\google drive\dut s3\m3105 - programmation objet avancée\tp1\include\voiture.h
+	"Individu.h"
+	<iostream>
+
+1573731063 source:c:\users\carduin-o\google drive\dut s3\m3105 - programmation objet avancée\tp1\src\individu.cpp
+	"Individu.h"
+
+1573731105 source:c:\users\carduin-o\google drive\dut s3\m3105 - programmation objet avancée\tp1\src\voiture.cpp
+	"Voiture.h"
+

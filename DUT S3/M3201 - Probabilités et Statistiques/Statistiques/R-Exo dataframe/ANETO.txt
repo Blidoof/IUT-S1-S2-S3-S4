@@ -1,0 +1,994 @@
+Sexe	age	Chaussures	sacados	feder	anios_pract	numer_3000	boussole/GPS	Radio/Tel	TrousSecours	id_proc	Origine	Destination
+H	18	3	1	1	15	2	1	0	1	CT	Espagne	Aneto
+H	23	4	1	1	20	2	0	1	1	PV	Espagne	Aneto
+H	28	5	1	0	25	10	1	0	1	FRA	France	Aneto
+H	23	3	1	1	20	4	1	1	1	VC	Espagne	Aneto
+H	33	3	1	0	30	1	1	1	1	MU	Espagne	Aneto
+H	18	3	1	0	15	1	1	1	1	MU	Espagne	Aneto
+H	38	3	1	1	35	5	0	0	1	POL	Autre pays	Aneto
+H	23	4	1	0	20	2	1	1	1	FRA	France	Aneto
+M	23	4	1	0	20	3	1	1	1	FRA	France	Aneto
+H	23	4	1	1	20	15	1	1	1	IRL	Autre pays	Aneto
+M	18	3	1	1	15	5	1	1	0	NA	Espagne	Aneto
+H	33	3	1	0	30	80	1	1	1	FRA	France	Aneto
+M	33	3	1	0	30	80	1	1	1	FRA	France	Aneto
+H	18	3	1	0	15	3	1	0	0	FRA	France	Aneto
+M	18	3	1	0	15	3	1	0	0	FRA	France	Aneto
+H	13	3	1	0	10	4	1	1	1	M	Espagne	Aneto
+H	23	4	1	1	20	140	1	1	1	CT	Espagne	Aneto
+H	18	3	1	1	15	1	1	1	1	FRA	France	Aneto
+H	28	3	1	1	24	20	0	1	1	IB	Espagne	Aneto
+M	8	3	1	1	4	4	1	1	1	CT	Espagne	Aneto
+H	13	4	1	1	8	14	1	0	1	CT	Espagne	Aneto
+H	8	3	0	1	3	3	0	1	0	CT	Espagne	Aneto
+H	13	3	1	0	8	3	1	1	1	CT	Espagne	Aneto
+M	23	3	1	1	18	10	0	0	0	DEU	Autre pays	Aneto
+H	13	3	1	0	8	2	1	1	1	M	Espagne	Aneto
+M	23	3	1	0	18	5	0	1	1	CT	Espagne	Aneto
+H	13	4	1	0	7	2	1	0	1	CT	Espagne	Aneto
+H	13	3	1	0	7	6	0	1	0	CT	Espagne	Aneto
+H	28	4	1	1	22	7	0	1	1	CT	Espagne	Aneto
+H	18	3	1	0	12	3	1	1	0	CT	Espagne	Aneto
+H	18	3	1	0	12	3	1	1	0	CT	Espagne	Aneto
+H	23	3	1	0	17	3	1	1	0	CT	Espagne	Aneto
+M	13	3	1	0	7	2	1	1	1	CT	Espagne	Aneto
+M	18	3	1	0	12	2	1	1	1	CT	Espagne	Aneto
+H	13	3	1	0	6	1	1	1	1	MU	Espagne	Aneto
+H	23	4	1	0	16	7	0	1	1	AR	Espagne	Aneto
+H	13	3	1	1	6	20	1	1	1	CT	Espagne	Aneto
+H	28	3	1	1	21	70	1	1	1	M	Espagne	Aneto
+H	33	4	1	0	25	10	1	0	1	CT	Espagne	Aneto
+H	18	4	1	0	10	1	0	0	0	PV	Espagne	Aneto
+H	28	3	1	0	20	3	1	0	1	CT	Espagne	Aneto
+H	48	3	1	0	40	5	1	0	0	CB	Espagne	Aneto
+H	28	3	1	0	20	1	1	1	1	AS	Espagne	Aneto
+H	13	3	1	0	5	8	0	1	1	M	Espagne	Aneto
+H	18	3	1	0	10	1	0	0	1	CT	Espagne	Aneto
+H	28	3	1	1	20	5	0	1	1	IB	Espagne	Aneto
+M	13	2	1	1	5	2	0	0	1	VC	Espagne	Aneto
+H	18	4	1	0	10	8	1	1	1	CT	Espagne	Aneto
+H	38	3	1	1	30	50	1	1	1	M	Espagne	Aneto
+M	18	3	1	1	10	9	1	1	1	M	Espagne	Aneto
+H	38	4	1	0	30	3	1	1	1	M	Espagne	Aneto
+H	18	3	1	1	10	2	1	1	1	VC	Espagne	Aneto
+M	28	4	1	1	20	8	0	0	0	PV	Espagne	Aneto
+H	28	4	1	0	20	2	0	1	1	CT	Espagne	Aneto
+H	53	3	1	0	45	20	1	1	1	CT	Espagne	Aneto
+H	28	3	1	0	20	15	1	1	1	CT	Espagne	Aneto
+H	13	5	1	0	5	1	1	1	1	FRA	France	Aneto
+H	23	4	1	1	15	4	0	1	1	PV	Espagne	Aneto
+M	23	4	1	1	15	1	0	1	1	PV	Espagne	Aneto
+H	38	5	1	1	30	15	1	1	1	FRA	France	Aneto
+H	58	3	1	0	50	30	1	1	1	FRA	France	Aneto
+H	58	3	1	1	50	10	1	1	1	FRA	France	Aneto
+H	33	4	1	1	25	169	0	1	1	PV	Espagne	Aneto
+M	28	3	1	0	20	1	0	1	1	FRA	France	Aneto
+H	13		1	1	5	2	1	1	1	AN	Espagne	Aneto
+M	23	3	1	1	15	3	0	1	1	CT	Espagne	Aneto
+H	48	3	1	0	40	3	0	0	0	FRA	France	Aneto
+H	48	3	1	0	40	4	0	0	0	FRA	France	Aneto
+M	48	3	1	0	40	6	0	0	0	FRA	France	Aneto
+H	28	3	1	1	20	15	0	1	0	CT	Espagne	Aneto
+H	23	3	1	1	15	50	1	1	1	PV	Espagne	Aneto
+H	13	3	1	0	5	1	1	1	1	PV	Espagne	Aneto
+H	38	3	1	1	30	183	1	1	1	CT	Espagne	Aneto
+H	18	3	1	1	10	8	1	1	0	NA	Espagne	Aneto
+H	38	3	1	1	30	60	0	0	0	DEU	Autre pays	Aneto
+H	28	3	1	1	20	500	1	1	1	AR	Espagne	Aneto
+M	18	3	1	0	10	3	1	1	0	CT	Espagne	Aneto
+H	48	3	1	1	40	30	1	1	1	CT	Espagne	Aneto
+M	18	4	1	0	10	15	1	1	1	CT	Espagne	Aneto
+H	33	4	1	0	25	6	1	1	1	CT	Espagne	Aneto
+H	18	4	1	1	10	1	1	1	1	FRA	France	Aneto
+H	13	3	1	0	5	6	1	0	1	FRA	France	Aneto
+M	18	3	1	1	10	1	0	1	0	FRA	France	Aneto
+H	13	3	1	1	5	1	1	1	1	PV	Espagne	Aneto
+H	38	4	1	0	29	500	1	1	1	CT	Espagne	Aneto
+H	13	3	1	1	4	3	0	1	1	CT	Espagne	Aneto
+H	13	3	1	0	4	1	0	1	1	CT	Espagne	Aneto
+H	23	4	1	0	14	7	0	0	1	M	Espagne	Aneto
+M	23	3	1	0	14	4	0	0	1	M	Espagne	Aneto
+H	18	4	1	1	9	5	1	1	0	PV	Espagne	Aneto
+H	18	3	1	0	9	1	1	1	0	CT	Espagne	Aneto
+H	18	3	1	0	9	1	1	1	0	CT	Espagne	Aneto
+M	13	3	1	0	4	2	1	1	1	CT	Espagne	Aneto
+H	28	4	1	1	19	100	1	1	1	CT	Espagne	Aneto
+H	13	3	0	0	3	3	0	1	1	CT	Espagne	Aneto
+H	13	3	1	0	3	3	0	1	1	CT	Espagne	Aneto
+H	18	4	1	0	8	1	1	1	1	FRA	France	Aneto
+H	23	4	1	0	13	15	1	1	1	VC	Espagne	Aneto
+H	13	5	1	1	3	4	1	1	1	FRA	France	Aneto
+H	18	3	1	1	8	3	1	1	0	NA	Espagne	Aneto
+H	18	3	1	0	8	3	1	1	0	CT	Espagne	Aneto
+H	18	3	1	0	8	3	1	1	0	CT	Espagne	Aneto
+H	18	3	1	1	8	4	1	1	0	CT	Espagne	Aneto
+H	23	4	1	1	13	57	1	1	1	CT	Espagne	Aneto
+H	28	3	1	0	18	6	0	1	1	CT	Espagne	Aneto
+M	13	3	1	0	2	2	0	0	0	CT	Espagne	Aneto
+H	13	3	0	0	2	2	0	0	1	CT	Espagne	Aneto
+H	18	3	1	1	7	25	1	1	1	MU	Espagne	Aneto
+M	23	4	1	1	12	4	1	1	1	PV	Espagne	Aneto
+H	23	4	1	1	12	6	1	1	1	PV	Espagne	Aneto
+H	18	3	1	1	7	20	1	1	1	CT	Espagne	Aneto
+H	23	4	1	1	12	40	1	1	1	CT	Espagne	Aneto
+H	18	3	1	1	7	6	1	1	1	PV	Espagne	Aneto
+H	33	4	1	1	21	8	0	1	1	AR	Espagne	Aneto
+H	48	3	1	1	36	100	1	1	1	FRA	France	Aneto
+M	18	4	1	0	6	1	1	1	1	CT	Espagne	Aneto
+H	38	3	1	1	26	100	0	1	0	CT	Espagne	Aneto
+H	13	3	1	0	1	2	1	1	1	AR	Espagne	Aneto
+H	38	4	1	1	25	10	1	0	1	CT	Espagne	Aneto
+H	23	2	1	0	10	10	0	1	0	CT	Espagne	Aneto
+H	33	3	1	0	20	20	0	1	0	CT	Espagne	Aneto
+H	23	3	1	0	10	5	0	0	0	PV	Espagne	Aneto
+H	28	3	1	0	15	12	1	1	1	DEU	Autre pays	Aneto
+H	23	3	1	0	10	1	1	1	1	CM	Espagne	Aneto
+H	13	3	1	0	0	3	0	0	1	CT	Espagne	Aneto
+H	18	4	1	1	5	100	1	1	1	NA	Espagne	Aneto
+H	33	4	1	1	20	5	0	1	1	PV	Espagne	Aneto
+H	33	4	1	1	20	300	1	1	1	EX	Espagne	Aneto
+H	33	4	1	0	20	1	1	1	1	EX	Espagne	Aneto
+H	23	3	1	0	10	2	1	0	0	PV	Espagne	Aneto
+H	23	3	0	0	10	1	1	0	0	PV	Espagne	Aneto
+H	28	3	1	0	15	3	1	0	1	CT	Espagne	Aneto
+H	28	3	1	0	15	3	1	0	1	CT	Espagne	Aneto
+M	28	3	1	1	15	3	1	0	1	CT	Espagne	Aneto
+H	43	3	1	0	30	1	0	1	1	AS	Espagne	Aneto
+H	28	2	1	0	15	1	1	1	1	EX	Espagne	Aneto
+H	28	3	1	0	15	5	1	1	1	M	Espagne	Aneto
+H	33	3	1	1	20	10	1	1	1	CL	Espagne	Aneto
+H	33	3	1	0	20	1	1	1	1	AS	Espagne	Aneto
+H	33	3	1	0	20	1	1	1	1	AS	Espagne	Aneto
+H	23	4	1	1	10	25	1	0	0	PV	Espagne	Aneto
+H	28	4	1	0	15	50	1	0	1	FRA	France	Aneto
+H	28	5	1	0	15	10	1	0	1	FRA	France	Aneto
+H	38	4	1	0	25	30	0	0	1	CT	Espagne	Aneto
+H	33	4	1	0	20	2	0	1	0	VC	Espagne	Aneto
+M	13	2	1	0	0	3	0	1	1	CT	Espagne	Aneto
+M	13	3	1	0	0	3	0	1	1	CT	Espagne	Aneto
+H	33	4	1	1	20	5	1	1	1	SVN	Autre pays	Aneto
+H	33	4	1	1	20	5	1	1	1	SVN	Autre pays	Aneto
+H	33	4	1	1	20	5	1	1	1	SVN	Autre pays	Aneto
+H	33	4	1	1	20	5	1	1	1	SVN	Autre pays	Aneto
+H	33	4	1	1	20	5	1	1	1	SVN	Autre pays	Aneto
+H	33	4	1	1	20	5	1	1	1	SVN	Autre pays	Aneto
+H	33	4	1	1	20	5	1	1	1	SVN	Autre pays	Aneto
+H	33	4	1	1	20	5	1	1	1	SVN	Autre pays	Aneto
+H	33	4	1	1	20	5	1	1	1	SVN	Autre pays	Aneto
+H	33	4	1	1	20	5	1	1	1	SVN	Autre pays	Aneto
+H	33	4	1	1	20	5	1	1	1	SVN	Autre pays	Aneto
+H	33	4	1	1	20	5	1	1	1	SVN	Autre pays	Aneto
+M	33	4	1	1	20	5	1	1	1	SVN	Autre pays	Aneto
+M	33	4	1	1	20	5	1	1	1	SVN	Autre pays	Aneto
+M	33	4	1	1	20	5	1	1	1	SVN	Autre pays	Aneto
+M	33	4	1	1	20	5	1	1	1	SVN	Autre pays	Aneto
+M	33	4	1	1	20	5	1	1	1	SVN	Autre pays	Aneto
+M	33	4	1	1	20	5	1	1	1	SVN	Autre pays	Aneto
+M	23	3	1	0	10	8	1	1	1	CT	Espagne	Aneto
+H	43	4	1	0	30	15	0	1	1	CT	Espagne	Aneto
+H	43	4	1	0	30	15	0	1	1	CT	Espagne	Aneto
+H	33	3	1	0	20	40	1	1	1	IRL	Autre pays	Aneto
+H	33	3	1	0	20	2	1	1	1	MU	Espagne	Aneto
+H	33	4	1	1	20	10	0	0	0	PV	Espagne	Aneto
+H	28	3	1	0	15	1	1	1	1	MU	Espagne	Aneto
+H	23	4	1	0	10	2	0	1	0	CT	Espagne	Aneto
+H	53	4	1	1	40	200	0	1	1	FRA	France	Aneto
+H	38	3	1	1	25	150	0	1	1	CT	Espagne	Aneto
+H	38	3	1	1	25	100	0	1	1	CT	Espagne	Aneto
+M	58	3	1	0	45	20	1	1	1	CT	Espagne	Aneto
+H	18	4	1	1	5	40	1	1	1	CT	Espagne	Aneto
+H	53	3	1	0	40	5	1	1	1	FRA	France	Aneto
+M	23	3	1	0	10	15	1	1	1	FRA	France	Aneto
+M	38	3	1	1	25	5	1	1	0	PV	Espagne	Aneto
+H	28	4	1	1	15	15	1	1	1	FRA	France	Aneto
+H	43	4	1	1	30	40	1	1	1	FRA	France	Aneto
+H	23	2	1	0	10	7	0	1	0	VC	Espagne	Aneto
+H	63	4	1	1	50	20	1	1	1	FRA	France	Aneto
+H	13	3	1	0	0	1	0	1	0	CT	Espagne	Aneto
+M	53	5	1	1	40	50	0	1	1	CT	Espagne	Aneto
+H	53	5	1	1	40	80	0	1	1	CT	Espagne	Aneto
+M	53	5	1	1	40	80	0	1	1	CT	Espagne	Aneto
+H	28	4	1	1	15	15	1	1	1	FRA	France	Aneto
+H	63	3	1	1	50	20	1	1	1	FRA	France	Aneto
+H	33	4	1	1	20	25	0	1	1	PV	Espagne	Aneto
+M	33	4	1	1	20	4	0	1	1	PV	Espagne	Aneto
+H	28	4	1	0	15	10	1	0	0	PV	Espagne	Aneto
+H	28	4	1	1	15	30	1	1	0	CT	Espagne	Aneto
+H	23	3	1	0	10	20	0	1	1	FRA	France	Aneto
+M	28	3	1	0	15	20	0	1	1	FRA	France	Aneto
+H	53	3	1	1	40	60	0	1	1	M	Espagne	Aneto
+H	33	3	1	1	20	150	1	1	1	AN	Espagne	Aneto
+H	28	3	1	0	15	3	1	1	1	CM	Espagne	Aneto
+M	33	3	1	0	20	4	1	1	1	IRL	Autre pays	Aneto
+H	38	3	1	0	25	4	0	1	0	VC	Espagne	Aneto
+M	28	3	1	0	15	3	0	1	1	CT	Espagne	Aneto
+H	28	3	1	0	15	4	0	1	1	CT	Espagne	Aneto
+H	28	3	1	0	15	4	0	1	1	CT	Espagne	Aneto
+H	28	3	1	0	15	2	0	1	1	CT	Espagne	Aneto
+H	28	3	1	0	15	3	0	1	1	CT	Espagne	Aneto
+H	28	4	1	0	15	3	0	1	1	CT	Espagne	Aneto
+H	23	4	1	1	10	15	1	1	1	POL	Autre pays	Aneto
+H	23	4	1	1	10		1	1	1	POL	Autre pays	Aneto
+H	23	4	1	1	10	3	1	1	1	POL	Autre pays	Aneto
+H	23	4	1	1	10	3	1	1	1	POL	Autre pays	Aneto
+H	23	4	1	1	10	30	1	1	1	POL	Autre pays	Aneto
+H	23	4	1	0	10	1	0	1	1	PV	Espagne	Aneto
+M	28	3	1	0	15	3	0	1	1	FRA	France	Aneto
+H	53	3	1	0	40	4	0	1	1	FRA	France	Aneto
+H	28	3	1	0	15	3	0	1	1	FRA	France	Aneto
+H	53	3	1	0	40	4	0	1	1	FRA	France	Aneto
+H	28	3	1	1	15	3	1	1	1	NSNC	Autre pays	Aneto
+H	33	4	1	1	20	100	0	1	0	AR	Espagne	Aneto
+H	18	3	0	0	5	5	0	0	0	CT	Espagne	Aneto
+H	18	4	1	1	5	2	1	1	0	CT	Espagne	Aneto
+H	23	3	1	0	10	20	1	1	1	AS	Espagne	Aneto
+H	28	4	1	1	15	20	1	1	1	AS	Espagne	Aneto
+H	28	4	1	1	15	20	1	1	1	AS	Espagne	Aneto
+M	33	3	1	0	20	15	0	1	0	CT	Espagne	Aneto
+H	43	3	1	0	30	1	1	1	1	PV	Espagne	Aneto
+H	13	3	1	0	0	2	1	1	1	CZE	Autre pays	Aneto
+H	33	3	1	1	20	20	0	1	1	M	Espagne	Aneto
+H	28	3	1	1	15	35	1	1	1	PV	Espagne	Aneto
+M	33	3	1	0	20	8	1	1	0	PV	Espagne	Aneto
+H	33	3	1	0	20	2	1	1	1	AR	Espagne	Aneto
+H	28	3	1	0	15	2	0	0	0	PV	Espagne	Aneto
+H	53	3	1	0	40	35	0	1	0	CT	Espagne	Aneto
+H	28	3	1	1	15	6	1	1	1	AN	Espagne	Aneto
+H	43	4	1	1	30	40	1	0	1	VC	Espagne	Aneto
+H	18	4	1	1	5	4	0	1	0	CT	Espagne	Aneto
+H	28	4	1	1	15	20	0	1	0	AR	Espagne	Aneto
+H	43	3	1	0	30	12	1	0	0	FRA	France	Aneto
+H	38	4	1	1	25	10	1	1	1	CT	Espagne	Aneto
+H	43	3	1	1	30	25	1	1	1	CT	Espagne	Aneto
+H	33	3	1	0	20	5	1	1	1	CT	Espagne	Aneto
+H	28	3	1	1	15	15	1	1	1	FRA	France	Aneto
+H	43	3	1	0	30	2	1	0	0	EX	Espagne	Aneto
+H	18	3	1	1	4	25	1	1	1	NA	Espagne	Aneto
+H	18	4	1	1	4	10	1	1	1	NA	Espagne	Aneto
+H	28	3	1	0	14	3	1	1	1	M	Espagne	Aneto
+M	28	3	1	0	14	1	1	1	1	M	Espagne	Aneto
+H	23	4	1	0	9	9	1	1	1	AS	Espagne	Aneto
+H	18	2	1	0	4	2	1	1	1	VC	Espagne	Aneto
+H	18	3	1	0	4	2	1	1	1	VC	Espagne	Aneto
+M	18	3	1	1	4	3	1	0	0	FRA	France	Aneto
+H	18	3	1	0	4	3	0	1	1	M	Espagne	Aneto
+H	28	4	1	1	14	20	1	1	1	VC	Espagne	Aneto
+H	38	3	1	1	24	25	1	0	1	CT	Espagne	Aneto
+H	33	4	1	1	19	3	0	1	1	M	Espagne	Aneto
+H	23	3	1	0	9	10	0	0	0	VC	Espagne	Aneto
+H	28	3	1	1	14	25	0	0	0	VC	Espagne	Aneto
+H	23	3	1	1	9	8	1	1	0	CT	Espagne	Aneto
+H	18	3	1	1	4	1	0	1	1	AR	Espagne	Aneto
+H	28	4	1	1	14	30	0	1	1	AR	Espagne	Aneto
+M	18	3	1	1	3	5	1	0	1	CT	Espagne	Aneto
+M	18	4	0	0	3	1	0	0	1	CT	Espagne	Aneto
+H	23	4	1	1	8	85	1	0	0	FRA	France	Aneto
+H	23	4	1	1	8	20	0	1	0	PV	Espagne	Aneto
+H	23	4	1	0	8	30	0	0	1	PV	Espagne	Aneto
+H	23	4	1	0	8	2	0	1	0	M	Espagne	Aneto
+H	23	4	1	0	8	15	1	1	1	VC	Espagne	Aneto
+H	43	3	0	1	28	10	0	0	0	CT	Espagne	Aneto
+M	43	4	1	1	28	10	0	0	0	CT	Espagne	Aneto
+H	23	4	1	0	8	2	1	0	1	PV	Espagne	Aneto
+H	23	4	1	0	8	10	1	0	1	PV	Espagne	Aneto
+H	48	3	1	1	33	4	0	0	0	CT	Espagne	Aneto
+H	23	3	1	0	8	6	0	1	1	CT	Espagne	Aneto
+H	48	3	1	0	33	25	0	1	0	AR	Espagne	Aneto
+H	28	3	1	0	13	7	0	1	1	CT	Espagne	Aneto
+H	23	3	1	1	8	7	1	1	0	NA	Espagne	Aneto
+H	18	3	1	0	3	1	0	1	0	CT	Espagne	Aneto
+H	23	4	1	0	8	4	0	1	1	AR	Espagne	Aneto
+M	23	3	1	0	8	7	1	1	1	CT	Espagne	Aneto
+H	33	3	1	1	17	150	1	1	1	DEU	Autre pays	Aneto
+H	18	3	1	1	2	1	1	0	1	CT	Espagne	Aneto
+H	28	3	1	1	12	4	1	1	1	CL	Espagne	Aneto
+H	28	2	1	0	12	2	0	0	0	CT	Espagne	Aneto
+M	18	2	1	0	2	1	0	0	0	CT	Espagne	Aneto
+H	28	3	1	1	12	4	0	1	0	PV	Espagne	Aneto
+H	23	4	1	1	7	5	1	1	1	CT	Espagne	Aneto
+H	28	3	1	0	12	1	1	1	0	NA	Espagne	Aneto
+H	28	4	1	1	12	3	1	1	0	NA	Espagne	Aneto
+H	28	4	1	1	12	3	1	1	0	NA	Espagne	Aneto
+H	23	3	1	1	7	20	1	1	1	FRA	France	Aneto
+H	23	4	1	1	7	35	1	1	1	PV	Espagne	Aneto
+H	33	4	1	0	17	5	1	1	0	FRA	France	Aneto
+H	28	3	1	1	12	6	1	1	0	NA	Espagne	Aneto
+H	28	2	1	1	12	65	0	1	1	CT	Espagne	Aneto
+H	33	2	1	1	17	1	0	1	1	CT	Espagne	Aneto
+H	33	2	1	1	17	1	0	1	1	CT	Espagne	Aneto
+H	23	4	1	0	6	2	1	1	1	AR	Espagne	Aneto
+H	23	4	1	0	6	2	1	1	1	AR	Espagne	Aneto
+H	23	3	1	0	6	4	1	1	1	AR	Espagne	Aneto
+H	23	3	1	0	6	1	1	1	1	CM	Espagne	Aneto
+H	23	2	1	0	6	1	1	1	1	CM	Espagne	Aneto
+H	23	3	1	0	6	1	1	1	1	AR	Espagne	Aneto
+H	23	3	1	0	6	1	1	1	1	AR	Espagne	Aneto
+H	23	3	1	0	6	1	1	1	1	AR	Espagne	Aneto
+H	18	3	1	0	1	2	0	1	0	AR	Espagne	Aneto
+H	33	4	1	0	16	16	1	1	1	CT	Espagne	Aneto
+H	48	4	1	0	31	3	0	1	1	M	Espagne	Aneto
+H	38	3	1	1	21	60	0	1	0	CT	Espagne	Aneto
+H	18	4	1	1	1	1	1	1	0	CT	Espagne	Aneto
+H	23	3	1	0	6	5	1	1	1	CM	Espagne	Aneto
+H	18	3	1	0	1	2	1	1	1	AR	Espagne	Aneto
+H	33	4	1	1	15	25	1	1	0	CT	Espagne	Aneto
+H	38	4	1	1	20	6	1	1	1	VC	Espagne	Aneto
+H	33	3	1	1	15	8	1	1	1	DEU	Autre pays	Aneto
+H	53	4	1	0	35	15	0	1	1	M	Espagne	Aneto
+H	18	3	1	0	0	2	0	0	1	CT	Espagne	Aneto
+M	18	3	1	0	0	1	0	0	1	CT	Espagne	Aneto
+H	28	4	1	0	10	1	1	1	1	EX	Espagne	Aneto
+H	28	3	1	0	10	3	1	1	1	CT	Espagne	Aneto
+M	28	3	1	0	10	2	1	0	1	CT	Espagne	Aneto
+H	33	4	1	0	15	6	0	1	1	AS	Espagne	Aneto
+H	33	2	1	0	15	2	1	1	1	EX	Espagne	Aneto
+H	28	4	1	1	10	8	1	1	1	CT	Espagne	Aneto
+H	28	4	1	1	10	8	1	1	1	CT	Espagne	Aneto
+H	28	3	1	0	10	11	1	1	1	M	Espagne	Aneto
+H	28	4	1	0	10	2	1	0	0	AR	Espagne	Aneto
+H	53	4	1	1	35	30	0	1	1	CT	Espagne	Aneto
+H	33	4	1	0	15	8	0	0	1	CT	Espagne	Aneto
+H	23	4	1	0	5	5	1	1	1	VC	Espagne	Aneto
+H	18	3	1	0	0	1	0	0	1	FRA	France	Aneto
+H	38	4	1	1	20	100	1	0	1	PV	Espagne	Aneto
+H	23	4	1	1	5	40	1	0	1	PV	Espagne	Aneto
+H	43	4	1	1	25	20	0	0	1	CT	Espagne	Aneto
+H	33	3	1	0	15	1	1	1	1	M	Espagne	Aneto
+H	23	4	1	1	5	2	1	1	1	VC	Espagne	Aneto
+H	23	3	1	1	5	2	0	0	1	VC	Espagne	Aneto
+H	23	2	1	0	5	5	0	0	1	VC	Espagne	Aneto
+M	33	4	1	0	15	5	1	1	1	M	Espagne	Aneto
+H	33	4	1	1	15	5	1	1	1	M	Espagne	Aneto
+H	58	4	1	0	40	15	1	1	1	CT	Espagne	Aneto
+M	28	4	1	0	10	2	0	1	1	VA	Autre pays	Aneto
+H	48	4	1	0	30	17	1	1	1	M	Espagne	Aneto
+H	33	3	1	0	15	2	1	1	1	MU	Espagne	Aneto
+H	38	4	1	0	20	15	1	1	1	AR	Espagne	Aneto
+H	43	4	1	1	25	10	1	1	1	PV	Espagne	Aneto
+H	43	4	1	1	25	10	1	1	1	PV	Espagne	Aneto
+H	28	4	1	0	10	1	0	1	0	CT	Espagne	Aneto
+H	48	4	1	0	30	40	1	0	1	FRA	France	Aneto
+H	53	3	1	0	35	7	1	1	1	CT	Espagne	Aneto
+H	28	4		0	10	6	1	1	1	CT	Espagne	Aneto
+H	43	4	1	0	25	10	0	1	0	AR	Espagne	Aneto
+H	23	4	1	1	5	4	1	1	1	CT	Espagne	Aneto
+H	23	4	1	1	5	4	1	1	1	CT	Espagne	Aneto
+M	38	4	1	1	20	6	1	1	1	M	Espagne	Aneto
+H	33	4	1	0	15	5	1	0	1	USA	Autre pays	Aneto
+H	28	4	1	0	10	1	1	1	1	VC	Espagne	Aneto
+H	28	4	1	0	10	1	1	1	1	VC	Espagne	Aneto
+H	28	4	1	0	10	1	1	1	1	VC	Espagne	Aneto
+H	58	4	1	1	40	100	1	1	1	FRA	France	Aneto
+H	33	3	1		15	2	1	1	1	VC	Espagne	Aneto
+H	23	4	1	0	5	15	1	1	1	VC	Espagne	Aneto
+H	38	4	0	1	20	35	1	1	0	AN	Espagne	Aneto
+H	28	3	1	0	10	2	0	1	1	CT	Espagne	Aneto
+H	28	3	1	0	10	15	1	1	1	FRA	France	Aneto
+H	43	4	1	1	25	450	1	1	1	FRA	France	Aneto
+H	23	4	1	0	5	5	1	1	1	FRA	France	Aneto
+H	48	4	1	1	30	30	0	0	1	PV	Espagne	Aneto
+H	33	3	1	0	15	4	0	1	1	CT	Espagne	Aneto
+H	43	3	1	1	25	75	1	0	0	IRL	Autre pays	Aneto
+M	38	4	1	1	20	6	0	1	1	PV	Espagne	Aneto
+M	28	3	1	1	10	5	1	1	0	CT	Espagne	Aneto
+H	53	4	1	1	35	80	0	0	1	DEU	Autre pays	Aneto
+H	33	4	1	0	15	13	1	1	1	CT	Espagne	Aneto
+H	33	4	1	0	15	10	1	1	1	CT	Espagne	Aneto
+H	33	4	1	0	15	10	1	1	1	CT	Espagne	Aneto
+M	33	3	1	0	15	12	1	1	1	CT	Espagne	Aneto
+M	23	3	1	0	5	2	0	0	0	VC	Espagne	Aneto
+H	28	3	1	0	10	1	1	1	1	CM	Espagne	Aneto
+H	28	3	1	0	10	1	1	1	1	CM	Espagne	Aneto
+H	53	3		1	35	50	1	1	1	FRA	France	Aneto
+H	28	3	1	1	10	8	1	1	1	CM	Espagne	Aneto
+H	38	4	1	0	20	4	1	1	1	IRL	Autre pays	Aneto
+H	33	3	1	1	15	50	0	0	1	PV	Espagne	Aneto
+H	33	3	1	1	15	50	0	0	1	PV	Espagne	Aneto
+H	33	3	1	0	15	50	0	0	1	PV	Espagne	Aneto
+H	18	4	1	1			1	0	0	NA	Espagne	Aneto
+H	43	4	1	1	25	40	1	1	1	CT	Espagne	Aneto
+H	43	4	1	1	25	40	1	1	1	CT	Espagne	Aneto
+H	43	4	1	1	25	40	1	1	1	CT	Espagne	Aneto
+H	28	2	1	0	10	4	0	0	0	CT	Espagne	Aneto
+H	28	3	1	0	10	1	0	0	0	CT	Espagne	Aneto
+H	28	3	1	0	10	3	0	1	1	FRA	France	Aneto
+H	28	3	1	0	10	4	0	1	1	FRA	France	Aneto
+H	48	4	1	0	30	20	0	1	1	AR	Espagne	Aneto
+H	43	3	1	1	25	500	1	1	1	FRA	France	Aneto
+H	28	3	1	0	10	5	0	1	0	FRA	France	Aneto
+H	18	3	1	0		2	0	1	1	CT	Espagne	Aneto
+H	48	3	1	0	30	20	1	1	1	PV	Espagne	Aneto
+H	43	4	1	1	25	20	1	1	0	AR	Espagne	Aneto
+H	28	4	1	0	10	2	1	0	1	AR	Espagne	Aneto
+H	33	3	1	1	15	50	0	0	0	VC	Espagne	Aneto
+M	28	3	1	1	10	100	0	1	1	CT	Espagne	Aneto
+M	18	3	1	0	0	2	1	1	1	CZE	Autre pays	Aneto
+M	18	3	1	0	0	2	1	1	1	CZE	Autre pays	Aneto
+H	18	3	1	0	0	2	1	1	1	CZE	Autre pays	Aneto
+M	23	3	1	0	5	2	0	0	0	M	Espagne	Aneto
+H	38	3	1	1	20	100	0	1	1	M	Espagne	Aneto
+H	28	3	1	0	10	2	1	1	0	AR	Espagne	Aneto
+H	28	3	1	0	10	2	1	1	0	AR	Espagne	Aneto
+H	33	3	1	0	15	30	1	1	0	AR	Espagne	Aneto
+H	23	3	1	0	5	2	0	1	1	PV	Espagne	Aneto
+H	33	3	1	1	15	35	1	1	0	CT	Espagne	Aneto
+M	33	3	1	0	15	1	1	0	1	PV	Espagne	Aneto
+H	58	3	1	0	40	1	0	1	1	CT	Espagne	Aneto
+H	38	3	1	0	20	8	1	1	0	PV	Espagne	Aneto
+H	38	3	1	1	20	2	1	1	0	PV	Espagne	Aneto
+H	23	4	1	0	5	5	0	1	1	PRT	Autre pays	Aneto
+M	33	3	1	0	15	10	1	0	1	FRA	France	Aneto
+H	28	4	1	1	10	10	1	0	1	CL	Espagne	Aneto
+M	48	3	1	0	30	12	1	0	0	FRA	France	Aneto
+H	38	3	1	1	20	100	1	1	1	NLD	Autre pays	Aneto
+H	38	3	1	0	20	4	1	1	1	NLD	Autre pays	Aneto
+H	28	3	1	0	10	1	1	1	1	VC	Espagne	Aneto
+M	28	3	1	0	10	2	1	1	1	VC	Espagne	Aneto
+H	43	3	1	1	25	10	1	1	1	CT	Espagne	Aneto
+H	28	4	1	0	10	50	1	1	1	AN	Espagne	Aneto
+H	28	3	1	0	10	50	1	1	1	AN	Espagne	Aneto
+H	23	3	1	0	5	3	1	1	0	CT	Espagne	Aneto
+H	38	3	1	0	20	1	1	1	1	CT	Espagne	Aneto
+H	38	3	1	0	20	3	1	1	1	CT	Espagne	Aneto
+H	43	4	1	1	25	7	0	1	1	CT	Espagne	Aneto
+H	58	3	1	1	40	160	1	1	1	CT	Espagne	Aneto
+H	28	3	1	0	10	5	1	1	1	CT	Espagne	Aneto
+H	33	3	1	0	15	5	1	1	1	CT	Espagne	Aneto
+H	48	3	1	1	30	100	0	1	1	VC	Espagne	Aneto
+H	38	3	1	0	20	2	0	1	1	AR	Espagne	Aneto
+H	23	4	1	0	5	3	1	1	1	FRA	France	Aneto
+M	28	4	1	1	10	5	1	1	0	AR	Espagne	Aneto
+H	33	4	1	1	15	30	0	1	0	AR	Espagne	Aneto
+H	23	3	1	0	5	0	1	1	0	PV	Espagne	Aneto
+H	33	3	1	1	15	2	1	1	1	CT	Espagne	Aneto
+H	43	4	1	1	25	4	1	1	1	CT	Espagne	Aneto
+H	28	3	1	0	10	80	0	1	0	FRA	France	Aneto
+H	43	4	1	1	25	10	1	1	1	CT	Espagne	Aneto
+H	38	4	1	1	20	14	1	1	1	CT	Espagne	Aneto
+H	38	4	1	0	20	5	1	0	1	M	Espagne	Aneto
+H	53	3	1	1	35	15	1	1	1	PV	Espagne	Aneto
+M	28	3	1	1	10	15	1	1	1	M	Espagne	Aneto
+M	28	3	0	1	10	10	1	1	1	M	Espagne	Aneto
+H	28	3	1	1	10	10	1	1	1	M	Espagne	Aneto
+H	28	3	1	1	10	10	1	1	1	M	Espagne	Aneto
+H	33	3	1	0	14	20	1	0	0	CT	Espagne	Aneto
+H	23	3	1	0	4	3	0	1	1	AS	Espagne	Aneto
+H	28	4	1	1	9	11	1	1	1	AS	Espagne	Aneto
+H	23	4	1	1	4	10	1	0	0	PV	Espagne	Aneto
+H	23	2	1	0	4	2	1	1	1	VC	Espagne	Aneto
+H	23	4	1	0	4	15	0	1	0	FRA	France	Aneto
+H	23	5	1	1	4	3	1	1	1	CT	Espagne	Aneto
+H	23	4	1	1	4	4	1	1	0	CT	Espagne	Aneto
+H	28	2	1	1	9	15	1	0	1	EX	Espagne	Aneto
+H	38	3	1	0	19	2	0	1	1	M	Espagne	Aneto
+H	23	3	1	0	4	1	1	1	1	VC	Espagne	Aneto
+H	48	3	1	1	29	300	0	1	1	AR	Espagne	Aneto
+M	28	4	1	1	8	25	1	1	0	CT	Espagne	Aneto
+H	23	3	1	0	3	1	1	0	1	CT	Espagne	Aneto
+H	23	2	1	0	3	2	0	1	0	VC	Espagne	Aneto
+H	48	4	1	0	28	5	0	0	1	CT	Espagne	Aneto
+H	33	3	1	1	13	1	1	1	1	MU	Espagne	Aneto
+H	28	4	1	1	8	16	1	1	1	CT	Espagne	Aneto
+H	28	4	1	0	8	2	0	1	1	CT	Espagne	Aneto
+M	28	4	1	0	8	2	0	1	1	CT	Espagne	Aneto
+M	28	3	1	1	8	5	1	1	1	PV	Espagne	Aneto
+M	23	4	1	1	3	11	1	1	1	PV	Espagne	Aneto
+H	38	3	1	1	18	40	1	0	1	AR	Espagne	Aneto
+H	23	3	1	0	3	2	1	1	1	FRA	France	Aneto
+H	28	3	1	0	8	1	0	1	1	PV	Espagne	Aneto
+H	28	3	1	0	8	1	1	1	0	CT	Espagne	Aneto
+H	28	4	1	1	8	17	1	1	0	FRA	France	Aneto
+H	38		1	1	18	1	1	1	1	AN	Espagne	Aneto
+M	28	3	1	0	8	1	1	1	1	CM	Espagne	Aneto
+M	28	4	1	1	8	6	1	1	1	NA	Espagne	Aneto
+H	28	3	1	0	8	10	0	1	1	PV	Espagne	Aneto
+H	23	3	1	0	3	2	0	1	1	CT	Espagne	Aneto
+M	28	3	1	0	8	2	0	1	1	CT	Espagne	Aneto
+H	28	4	1	0	8	20	0	1	0	POL	Autre pays	Aneto
+M	28	3	1	0	8	1	0	1	0	POL	Autre pays	Aneto
+M	58	3	1	1	38	160	1	1	1	CT	Espagne	Aneto
+M	28	3	1	0	7	11	1	1	1	M	Espagne	Aneto
+H	28	4	1	0	7	2	1	1	1	CL	Espagne	Aneto
+H	38	4	1	1	17	30	0	1	1	M	Espagne	Aneto
+H	33	4	0	0	12	10	1	1	1	IRL	Autre pays	Aneto
+H	53	4	1	0	32	40	1	0	1	FRA	France	Aneto
+M	23	4	1	1	2	25	1	1	1	FRA	France	Aneto
+M	23	3	1	0	2	1	0	1	0	M	Espagne	Aneto
+H	33	4	1	1	12	95	1	1	1	PV	Espagne	Aneto
+M	23	3	1	1	2	10	1	1	1	FRA	France	Aneto
+H	23	4	1	1	2	3	1	1	1	CT	Espagne	Aneto
+H	23	4	1	0	2	2	1	1	1	CT	Espagne	Aneto
+H	33	3	1	0	12	2	1	1	1	CL	Espagne	Aneto
+H	23	3	1	0	2	1	0	1	1	AR	Espagne	Aneto
+H	33	3	1	0	12	10	1	1	1	FRA	France	Aneto
+H	23	4	1	0	2	5	1	1	0	CT	Espagne	Aneto
+H	23	4	1	0	2	5	1	1	0	CT	Espagne	Aneto
+H	23	3	1	0	2	2	0	1	1	CT	Espagne	Aneto
+M	23	3	1	0	2	2	0	1	1	CT	Espagne	Aneto
+H	23	3	1	0	2	2	1	1	0	CT	Espagne	Aneto
+H	23	3	1	0	2	3	1	1	0	CT	Espagne	Aneto
+H	28	3	1	0	7	1	0	1	0	CT	Espagne	Aneto
+M	23	4	1	0	1	1	1	1	1	CT	Espagne	Aneto
+H	28	4	1	1	6	2	1	1	1	VC	Espagne	Aneto
+H	23	3	1	1	1	2	1	1	1	CT	Espagne	Aneto
+H	28	4	1	1	6	5	1	1	1	PV	Espagne	Aneto
+H	23	3	1	0	1	1	0	1	1	CT	Espagne	Aneto
+H	28	3	1	0	6	2	0	1	1	FRA	France	Aneto
+H	28	3	1	0	6	2	0	0	0	VC	Espagne	Aneto
+M	33	3	1	0	11	4	1	1	1	FRA	France	Aneto
+H	23	3	1	0	1	2	0	0	0	VC	Espagne	Aneto
+M	33	3	1	1	11	10	0	1	1	M	Espagne	Aneto
+H	28	4	1	0	6	4	1	1	1	M	Espagne	Aneto
+H	28	3	1	0	6	1	1	1	1	CT	Espagne	Aneto
+H	38	3	1	0	15	1	0	0	0	CT	Espagne	Aneto
+H	23	3	1		0	3	1	1	1	M	Espagne	Aneto
+H	23	3	1		0	3	1	1	1	M	Espagne	Aneto
+H	23	4	1		0	3	1	1	1	M	Espagne	Aneto
+H	23	3	1		0	3	1	1	1	M	Espagne	Aneto
+H	23	3	1		0	3	1	1	1	M	Espagne	Aneto
+H	33	3	1	1	10	170	1	0	1	CT	Espagne	Aneto
+H	33	4	1	0	10	4	0	1	0	AR	Espagne	Aneto
+H	23	3	1	0	0	1	1	1	1	AR	Espagne	Aneto
+H	28	3	1	0	5	3	0	1	1	VC	Espagne	Aneto
+H	23	4	1		0	1	0	1	1	M	Espagne	Aneto
+M	23	3	0		0	0	0	1	1	M	Espagne	Aneto
+M	23	3	1	0	0	1	0	0	1	CT	Espagne	Aneto
+M	23	3	1	0	0	1	0	0	1	CT	Espagne	Aneto
+M	23	3	0	0	0	18	0	0	1	CT	Espagne	Aneto
+H	33	3	1	0	10	1	0	1	1	CT	Espagne	Aneto
+M	43	3	1	0	20	2	0	1	1	CT	Espagne	Aneto
+H	43	4	1	0	20	3	1	0	0	CB	Espagne	Aneto
+H	33	4	1	0	10	2	1	1	1	AR	Espagne	Aneto
+H	33	4	1	1	10	23	1	0	0	PV	Espagne	Aneto
+H	38	4	1	1	15	6	1	1	1	M	Espagne	Aneto
+H	43	3	1	1	20	30	0	1	0	VC	Espagne	Aneto
+H	63	4	1	1	40	100	1	1	1	PV	Espagne	Aneto
+M	63	3	1	1	40	100	1	1	1	PV	Espagne	Aneto
+H	43	4	1	1	20	12	1	1	1	VC	Espagne	Aneto
+H	33	3	1	0	10	10	1	0	1	DEU	Autre pays	Aneto
+H	33	3	1	0	10	10	1	0	1	DEU	Autre pays	Aneto
+H	33	4	1	1	10	15	1	1	1	SVN	Autre pays	Aneto
+H	23	2	1	0	0	1	0	1	0	BEL	Autre pays	Aneto
+H	68	4	1	0	45	40	1	1	1	IRL	Autre pays	Aneto
+H	43	4	1	0	20	12	0	0	0	CT	Espagne	Aneto
+H	33	3	1	0	10	1	1	1	1	M	Espagne	Aneto
+M	33	3	1	0	10	2	1	1	1	M	Espagne	Aneto
+H	43	3	1	0	20	5	1	1	1	VC	Espagne	Aneto
+H	53	4	1	0	30	12	0	1	0	AR	Espagne	Aneto
+H	48	4	1	1	25	4	1	1	1	PV	Espagne	Aneto
+H	28	3	1	1	5	5	1	1	1	FRA	France	Aneto
+H	48	4	1	0	25	2	0	1	0	AR	Espagne	Aneto
+H	38	3	1	0	15	4	1	0	1	USA	Autre pays	Aneto
+H	28	3	1		5	7	1	1	1	VC	Espagne	Aneto
+H	28	4	1	1	5	1	1	1	1	VC	Espagne	Aneto
+H	28	3	1	1	5	5	1	1	1	PV	Espagne	Aneto
+H	43	3	1	0	20	1	1	1	1	FRA	France	Aneto
+H	48	3	1	0	25	6	1	0	1	FRA	France	Aneto
+H	48	4	1	1	25	10	0	1	1	FRA	France	Aneto
+H	48	4	1	0	25	4	0	1	1	FRA	France	Aneto
+H	33	3	1	1	10	5	1	1	1	CT	Espagne	Aneto
+H	33	4	1	0	10	22	0	1	1	CT	Espagne	Aneto
+H	33	4	1	0	10	25	0	1	1	CT	Espagne	Aneto
+H	48	3	1	1	25	5	1	1	0	PV	Espagne	Aneto
+M	23	3	1	1	0	8	1	1	0	CT	Espagne	Aneto
+H	28	4	1	1	5	18	1	1	0	CT	Espagne	Aneto
+H	28	3	1	1	5	20	1	1	0	CT	Espagne	Aneto
+M	38	4	1	1	15	20	1	1	1	FRA	France	Aneto
+H	53	3	0	0	30	7	0	1	0	VC	Espagne	Aneto
+H	38	4	1	0	15	6	1	1	1	FRA	France	Aneto
+H	38	4	1	0	15	20	1	1	1	FRA	France	Aneto
+H	33	4	0	0	10	3	1	1	1	FRA	France	Aneto
+H	38	3	1	1	15	2	0	1	1	CT	Espagne	Aneto
+H	63	5	1	1	40	50	0	1	1	CT	Espagne	Aneto
+H	23	3	1	0	0	1	1	1	1	FRA	France	Aneto
+H	53	4	1	1	30	100	1	1	1	FRA	France	Aneto
+H	28	4	1	1	5	15	1	1	1	FRA	France	Aneto
+M	48	4	1	1	25	50	1	1	1	FRA	France	Aneto
+H	38	3	1	1	15	15	1	1	1	PV	Espagne	Aneto
+H	38	4	1	0	15	12	1	1	1	CT	Espagne	Aneto
+H	43	3	1	0	20	4	0	1	1	M	Espagne	Aneto
+M	23	1								NSNC	Autre pays	Aneto
+H	23	2								NSNC	Autre pays	Aneto
+H	43	5	1	1	20	3	0	1	0	EX	Espagne	Aneto
+H	43	3	1	1	20	1	1	0	0	M	Espagne	Aneto
+H	33	3	1	0	10	5	0	1	0	PV	Espagne	Aneto
+M	33	3	1	0	10	5	0	1	0	PV	Espagne	Aneto
+H	43	4	1	1	20	60	1	1	1	AR	Espagne	Aneto
+H	33	3	1	1	10	6	1	1	1	GA	Espagne	Aneto
+M	33	3	1	1	10	6	1	1	1	GA	Espagne	Aneto
+H	33	3	1	0	10	1	1	1	1	CT	Espagne	Aneto
+H	28	3	1	1	5	3	1	1	1	NSNC	Autre pays	Aneto
+M	38	3	1	1	15	3	1	1	1	NSNC	Autre pays	Aneto
+H	28	3	1	0	5	2	1	1	1	M	Espagne	Aneto
+M	23	2	1	1		1	1	1	1	CT	Espagne	Aneto
+M	23	2	1	0		1	1	1	1	CT	Espagne	Aneto
+M	23	2	1	0		1	1	1	1	CT	Espagne	Aneto
+H	23	2	1	0		1	1	1	1	CT	Espagne	Aneto
+H	23	3	1	0		1	1	1	1	CT	Espagne	Aneto
+H	23	3	1	0		1	1	1	1	CT	Espagne	Aneto
+H	23	3	1	0		5	1	1	1	CT	Espagne	Aneto
+H	23	3	1	1		1	1	1	1	CT	Espagne	Aneto
+H	43	3	1	0	20	5	1	1	1	FRA	France	Aneto
+H	43	3	1	0	20	10	1	0	1	FRA	France	Aneto
+H	43	4	1	0	20	5	1	0	0	FRA	France	Aneto
+M	43	4	0	0	20	5	1	0	0	FRA	France	Aneto
+H	33	3	1	1	10	6	0	1	1	CT	Espagne	Aneto
+H	68	3	1	1	45	50	0	0	0	FRA	France	Aneto
+H	23	3	1	0	0	2	0	1	0	CT	Espagne	Aneto
+H	63	4	1	1	40	200	0	1	0	FRA	France	Aneto
+M	23	3	1	0	0	2	1	1	1	CZE	Autre pays	Aneto
+M	23	3	1	0	0	2	1	1	1	CZE	Autre pays	Aneto
+H	23	3	1	0	0	2	1	1	1	CZE	Autre pays	Aneto
+H	33	3	1	1	10	30	1	1	0	CM	Espagne	Aneto
+M	23	3	1	0	0	1	0	1	1	M	Espagne	Aneto
+H	33	3	1	0	10	4	1	1	1	VC	Espagne	Aneto
+H	33	3	1	0	10	4	1	1	1	VC	Espagne	Aneto
+M	33	3	1	1	10	4	1	0	0	M	Espagne	Aneto
+H	33	3	1	0	10	13	0	0	0	FRA	France	Aneto
+H	43	3	1	0	20	3	0	1	0	M	Espagne	Aneto
+H	38	4	1	1	15	10	1	1	0	NA	Espagne	Aneto
+H	23	3	1	0	0	1	0	1	0	POL	Autre pays	Aneto
+H	38	3	1	0	15	10	1	1	1	CT	Espagne	Aneto
+H	38	3	1	0	15	10	1	1	1	CT	Espagne	Aneto
+H	23	4	1	0	0	2	0	1	1	CT	Espagne	Aneto
+H	33	4	1	1	10	50	0	1	1	VC	Espagne	Aneto
+H	33	3	1	0	10	10	0	1	0	CT	Espagne	Aneto
+H	43	3	1	1	20	15	0	1	1	CT	Espagne	Aneto
+H	43	3	1	0	20	2	0	1	1	AR	Espagne	Aneto
+H	43	3	1	0	20	2	0	1	1	AR	Espagne	Aneto
+H	43	3	1	0	20	2	0	1	1	AR	Espagne	Aneto
+H	53	5	1	1	30	31	0	1	0	FRA	France	Aneto
+H	53	4	1	1	30	30	0	1	1	AR	Espagne	Aneto
+H	53	4	1	1	30	30	0	1	1	AR	Espagne	Aneto
+H	28	3	1	0	5	0	1	1	0	PV	Espagne	Aneto
+H	28	3	1	0	5	0	1	1	0	PV	Espagne	Aneto
+H	38	3	1	1	15	6	1	1	1	CT	Espagne	Aneto
+H	43	3	1	0	20	10	0	1	0	NA	Espagne	Aneto
+H	53	4	1	1	30	13	1	1	1	PV	Espagne	Aneto
+H	53	4	1	1	30	5	1	1	1	PV	Espagne	Aneto
+H	43	3	1	0	20	10	1	1	0	CT	Espagne	Aneto
+M	33	3	0	1	10	10	1	1	1	M	Espagne	Aneto
+H	33	3	1	1	10	10	1	1	1	M	Espagne	Aneto
+H	28	3	1	0	4	2	1	1	0	CT	Espagne	Aneto
+H	28	3	1	0	4	1	1	1	0	CT	Espagne	Aneto
+H	28	3	1	0	4	1	1	1	0	CT	Espagne	Aneto
+H	28	4	1	0	4	25	1	1	0	PV	Espagne	Aneto
+H	28	4	1	1	4	40	1	0	0	AR	Espagne	Aneto
+H	28	4	1	0	4	2	1	1	1	VC	Espagne	Aneto
+H	28	2	1	0	4	2	1	1	1	VC	Espagne	Aneto
+H	28	3	1	0	4	4	0	0	1	PV	Espagne	Aneto
+H	28	3	1	0	4	2	0	0	1	PV	Espagne	Aneto
+H	28	3	1		4	2	1	1	1	VC	Espagne	Aneto
+H	48	3	1		24	4	1	1	1	VC	Espagne	Aneto
+H	33	3	1	1	9	7	0	1	0	PV	Espagne	Aneto
+M	28	3	1	0	4	2	1	1	0	CT	Espagne	Aneto
+H	28	3	1	1	4	2	0	1	1	CT	Espagne	Aneto
+H	28	3	1	1	4	2	0	1	1	CT	Espagne	Aneto
+H	28	3	1	1	4	2	0	1	1	CT	Espagne	Aneto
+H	28	3	1	1	4	2	0	1	1	CT	Espagne	Aneto
+H	28	4	1	0	4	5	1	0	0	AR	Espagne	Aneto
+M	28	3	1	1	4	1	1	0	1	CL	Espagne	Aneto
+H	28	3	1	0	4	2	1	1	1	VC	Espagne	Aneto
+H	28	4	1	1	3	3	1	1	1	VC	Espagne	Aneto
+H	28	3	1	0	3	2	0	1	1	AS	Espagne	Aneto
+H	28	4	1	1	3	2	0	0	0	PV	Espagne	Aneto
+H	28	3	1	0	3	2	0	0	0	PV	Espagne	Aneto
+M	28	3	1	0	3	2	0	0	0	PV	Espagne	Aneto
+H	28	3	1	1	3	1	1	1	1	CL	Espagne	Aneto
+H	28	4	1	1	3	5	1	1	1	CT	Espagne	Aneto
+M	28	4	1	1	3	2	1	1	1	CT	Espagne	Aneto
+H	33	4	1	0	8	3	0	0	1	VC	Espagne	Aneto
+H	33	4	1	0	8	4	1	0	1	CZE	Autre pays	Aneto
+H	48	4	1	1	23	20	0	0	1	CT	Espagne	Aneto
+H	28	2	1	0	3	1	0	0	0	CT	Espagne	Aneto
+H	28	4	1	0	3	1	1	1	1	PV	Espagne	Aneto
+M	28	3	1	1	3	13	1	1	1	PV	Espagne	Aneto
+H	28	3	1	1	3	10	1	1	1	FRA	France	Aneto
+H	33	3	1	0	8	1	0	1	1	PV	Espagne	Aneto
+H	33	3	1	0	8	1	1	1	0	CT	Espagne	Aneto
+M	28	4	1	1	3	1	1	1	1	CM	Espagne	Aneto
+H	33	4	1	1	8	6	1	1	1	NA	Espagne	Aneto
+H	28	3	1	0	3	1	1	1	1	CT	Espagne	Aneto
+H	28	2	1	1	3	5	0	1	0	CT	Espagne	Aneto
+H	28	3	1	1	3	2	0	1	0	CT	Espagne	Aneto
+H	28	3	1	0	3	1	0	0	0	VC	Espagne	Aneto
+H	28	3	1	0	3	2	1	1	0	CT	Espagne	Aneto
+H	33	3	1	0	8	1	1	1	1	CT	Espagne	Aneto
+M	43	3	1	0	18	2	0	1	1	CT	Espagne	Aneto
+H	33	3	1	0	8	1	0	1	0	NA	Espagne	Aneto
+H	33	3	1	0	8	1	0	1	0	NA	Espagne	Aneto
+M	28	3	1	0	3	3	1	0	1	M	Espagne	Aneto
+H	28	3	1	0	2	1	1	0	0	CT	Espagne	Aneto
+H	28	3	1	1	2	1	1	1	1	DEU	Autre pays	Aneto
+H	28	3	1	0	2	2	0	1	1	CT	Espagne	Aneto
+M	28	3	1	0	2	1	0	1	1	CT	Espagne	Aneto
+M	28	3	1	0	2	2	0	0	0	CT	Espagne	Aneto
+H	28	3	1	0	2	1	1	1	1	CT	Espagne	Aneto
+H	28	3	1	1	2	4	1	1	1	CT	Espagne	Aneto
+M	28	3	1	0	2	2	1	1	1	CT	Espagne	Aneto
+H	28	4	1	0	2	1	1	1	1	CT	Espagne	Aneto
+H	38	4	1	0	12	6	1	0	1	FRA	France	Aneto
+H	28	4	1	0	2	5	1	1	1	VC	Espagne	Aneto
+H	58	3	1	1	32	50	1	0	1	PV	Espagne	Aneto
+H	38	3	1	0	12	3	1	1	1	MU	Espagne	Aneto
+M	28	3	1	0	2	6	1	1	1	CT	Espagne	Aneto
+M	38	3	1	0	12	2	1	1	1	CL	Espagne	Aneto
+M	28	3	1	1	2	7	0	1	1	CT	Espagne	Aneto
+H	28	3	1	1	2	7	0	1	1	CT	Espagne	Aneto
+H	28	3	1	1	2	7	0	1	1	CT	Espagne	Aneto
+H	28	4	1	0	2	1	0	1	1	PV	Espagne	Aneto
+H	28	3	1	1	2	2	1	1	1	CT	Espagne	Aneto
+H	28	3	1	0	2	1	1	1	1	CT	Espagne	Aneto
+H	28	3	1	0	2	1	1	1	1	CT	Espagne	Aneto
+H	28	3	1	0	2	1	1	1	1	CT	Espagne	Aneto
+H	28	4	1	0	2	2	1	0	0	AR	Espagne	Aneto
+H	33	3	1	1	7	7	0	1	1	CT	Espagne	Aneto
+H	28	3	1	1	2	10	0	1	0	CT	Espagne	Aneto
+M	38	3	1	1	12	3	1	1	0	NA	Espagne	Aneto
+H	28	3	1	0	2	2	1	1	0	CT	Espagne	Aneto
+H	28	3	1	0	2	1	1	1	1	CT	Espagne	Aneto
+H	28	3	1	0	2	1	1	1	1	CT	Espagne	Aneto
+H	28	3	1	0	2	4	0	1	1	AND	Autre pays	Aneto
+H	28	2	1	0	1	1	0	1	0	CB	Espagne	Aneto
+H	28	2	1	0	1	1	0	1	0	CB	Espagne	Aneto
+M	33	3	1	0	6	1	1	0	1	CT	Espagne	Aneto
+H	33	3	1	0	6	3	1	0	1	CZE	Autre pays	Aneto
+M	33	3	1	0	6	1	1	1	1	VC	Espagne	Aneto
+M	38	3	1	1	11	10	1	1	1	FRA	France	Aneto
+H	33	3	1	1	6	2	1	1	0	CT	Espagne	Aneto
+M	28	4	1	0	1	1	0	1	1	M	Espagne	Aneto
+M	33	3	1	1	6	4	1	1	1	NSNC	Autre pays	Aneto
+M	28	3	1	0	1	1	1	1	1	M	Espagne	Aneto
+H	28	3	1	0	1	2	0	1	0	CT	Espagne	Aneto
+H	28	3	1	0	1	3	0	1	0	CT	Espagne	Aneto
+H	28	3	1	0	1	5	0	1	0	CT	Espagne	Aneto
+H	43	4	1	1	15	4	1	0	1	CT	Espagne	Aneto
+H	28	3	1		0	3	1	1	1	M	Espagne	Aneto
+H	28	4	1	0	0	1	1	0	1	CL	Espagne	Aneto
+H	28	3	0	0	0	2	1	0	1	CL	Espagne	Aneto
+H	28	4	0	0	0	1	1	0	1	CL	Espagne	Aneto
+H	38	4	1	0	10	3	0	1	0	AR	Espagne	Aneto
+H	38	4	1	0	10	20	0	1	0	AR	Espagne	Aneto
+H	28	3	1	0	0	1	0	0	1	CT	Espagne	Aneto
+M	53	4	1	1	25	2	0	1	1	PV	Espagne	Aneto
+M	48	3	1	1	20	4	0	1	1	CB	Espagne	Aneto
+H	58	4	1	1	30	50	1	1	1	PV	Espagne	Aneto
+H	33	3	1	0	5	6	0	0	0	CT	Espagne	Aneto
+H	33	4	1	0	5	1	0	1	1	VA	Autre pays	Aneto
+H	38	4	1	0	10	2	0	1	1	CT	Espagne	Aneto
+H	28	2	1	0	0	1	1	1	0	NA	Espagne	Aneto
+M	48	4	1	1	20	4	1	1	1	M	Espagne	Aneto
+H	43	3	1	0	15	1	0	1	1	CT	Espagne	Aneto
+H	33	3	1		5	2	1	1	1	VC	Espagne	Aneto
+H	48	4	1	0	20	1	1	1	1	FRA	France	Aneto
+H	28	4	1	1	0	8	1	1	0	CT	Espagne	Aneto
+H	33	4	1	1	5	4	0	1	0	PV	Espagne	Aneto
+H	28	3	1	0	0	2	0	1	0	CT	Espagne	Aneto
+M	28	3	0	0	0	1	1	1	0	CT	Espagne	Aneto
+M	28	3	1	1	0	2	1	1	0	CT	Espagne	Aneto
+H	28	4	1	0	0	1	1	1	1	CT	Espagne	Aneto
+H	38	4	1	0	10	11	1	1	0	CT	Espagne	Aneto
+H	38	4	1	1	10	40	1	1	1	FRA	France	Aneto
+H	38	4	1	0	10	1	0	1	1	PV	Espagne	Aneto
+M	38	3	1	0	10	1	0	1	1	PV	Espagne	Aneto
+H	28	3	1	0	0	1	0	1	1	CT	Espagne	Aneto
+M	38	4	1	1	10		1	1	1	POL	Autre pays	Aneto
+M	38	4	1	1	10		1	1	1	POL	Autre pays	Aneto
+M	38	4	1	1	10		1	1	1	POL	Autre pays	Aneto
+H	33	2	1	0	5	7	0	1	0	CT	Espagne	Aneto
+M	38	3	1	1	10	4	1	1	1	NSNC	Autre pays	Aneto
+H	48	3	1	0	20	2	1	1	0	VC	Espagne	Aneto
+M	48	3	0	0	20	5	1	0	0	FRA	France	Aneto
+M	33	3	1	1	5	3	0	1	1	CT	Espagne	Aneto
+H	28	3	1	0		2	0	1	1	CT	Espagne	Aneto
+H	38	4	1	1	10	100	0	1	1	CT	Espagne	Aneto
+M	28	3	1	0	0	2	1	1	1	CZE	Autre pays	Aneto
+M	28	3	1	0	0	2	1	1	1	CZE	Autre pays	Aneto
+M	28	3	1	0	0	2	1	1	1	CZE	Autre pays	Aneto
+H	28	3	1	0	0	2	1	1	1	CZE	Autre pays	Aneto
+H	28	3	1	0	0	2	1	1	1	CZE	Autre pays	Aneto
+H	28	3	1	0	0	2	1	1	1	CZE	Autre pays	Aneto
+H	33	3	1	0	5	1	0	0	0	M	Espagne	Aneto
+H	28	3	1	0	0	1	0	1	1	M	Espagne	Aneto
+M	58	3	1	1	30	20	1	1	1	PV	Espagne	Aneto
+H	43	3	1	0	15	1	1	0	1	PV	Espagne	Aneto
+H	33	3	1	0	5	1	0	0	0	CL	Espagne	Aneto
+H	38	3	1	1	10	4	1	0	0	M	Espagne	Aneto
+H	28	3	1	0			1	0	1	FRA	France	Aneto
+H	28	3	1	0			1	0	1	FRA	France	Aneto
+H	33	3	1	0	5	1	0	1	0	CT	Espagne	Aneto
+M	48	3	1	1	20	0	0	1	1	CT	Espagne	Aneto
+H	48	3	1	0	20	2	0	1	1	AR	Espagne	Aneto
+H	48	3	1	0	20	25	1	0	1	FRA	France	Aneto
+H	38	3	1	1	10	50	1	0	1	FRA	France	Aneto
+H	28	3	1	0	0	1	0	1	1	AND	Autre pays	Aneto
+H	28	3	1	0	0	0	0	1	1	AND	Autre pays	Aneto
+H	38	3	1	0	10	5	0	1	0	AR	Espagne	Aneto
+H	58	3	1	1	30	50	1	1	1	PV	Espagne	Aneto
+H	38	3	1	1	10	5	1	1	0	CT	Espagne	Aneto
+H	33	3	1	0	4	1	0	0	1	CL	Espagne	Aneto
+H	33	3	1	0	4	2	0	1	1	AR	Espagne	Aneto
+H	33	4	0	0	4	15	0	1	0	FRA	France	Aneto
+H	33	3	1	1	4	15	1	1	1	CT	Espagne	Aneto
+H	33	3	1	0	4	4	1	1	0	CT	Espagne	Aneto
+M	33	3	0	0	4	4	1	1	0	CT	Espagne	Aneto
+H	33	3	1	0	3	2	0	1	1	VC	Espagne	Aneto
+H	33	3	1	0	3	1	0	1	1	VC	Espagne	Aneto
+H	38	3	1	0	8	3	0	0	1	VC	Espagne	Aneto
+H	33	4	1		3	1	1	1	1	VC	Espagne	Aneto
+M	48	3	1	1	18	15	1	0	0	IRL	Autre pays	Aneto
+M	38	3	1	1	8	15	1	1	1	PV	Espagne	Aneto
+H	33	4	1	0	3	1	0	1	0	AND	Autre pays	Aneto
+M	48		1	1	18	1	1	1	1	AN	Espagne	Aneto
+M	43	4	1	1	13	20	1	1	0	AR	Espagne	Aneto
+H	48	3	1	0	18	5	0	1	1	CT	Espagne	Aneto
+M	43	3	1	1	12	3	0	1	1	CT	Espagne	Aneto
+H	43	3	1	1	12	2	1	1	1	VC	Espagne	Aneto
+H	33	3	1	1	2	7	0	0	0	CT	Espagne	Aneto
+M	33	3	1	1	2	2	0	0	0	CT	Espagne	Aneto
+M	38	3	1	1	7	3	1	1	1	NSNC	Autre pays	Aneto
+M	33	3	1	1	2	10	0	1	0	CT	Espagne	Aneto
+H	38	3	1	0	7	3	1	1	1	M	Espagne	Aneto
+H	33	2	1	0	1	2	1	0	1	VC	Espagne	Aneto
+H	53	4	1	1	21	20	1	1	1	FRA	France	Aneto
+M	38	3	1	1	6	1	0	0	0	CT	Espagne	Aneto
+H	38	3	1	0	6	1	0	1	1	CT	Espagne	Aneto
+H	33	3	1	1	1	3	0	1	1	CT	Espagne	Aneto
+M	33	3	1	0	1	2	0	1	1	CT	Espagne	Aneto
+M	33	3	1	0	1	3	0	1	0	CT	Espagne	Aneto
+M	43	3	1	1	11	6	1	1	1	PV	Espagne	Aneto
+H	43	3	1	1	10	10	0	1	0	CT	Espagne	Aneto
+H	33	3	1	0	0	5	0	0	0	CT	Espagne	Aneto
+H	58	4	1	1	25	10	0	1	1	PV	Espagne	Aneto
+H	38	4	1	1	5	3	1	1	1	CT	Espagne	Aneto
+M	33	3	1	0	0	3	1	0	0	BEL	Autre pays	Aneto
+H	53	4	1	0	20	12	0	0	0	CT	Espagne	Aneto
+H	38	3	1	1	5	3	1	1	1	CT	Espagne	Aneto
+H	43	4	1	0	10	2	0	1	1	AR	Espagne	Aneto
+H	43	4	1	1	10	25	1	1	0	CT	Espagne	Aneto
+H	33	4	1	0	0	20	0	1	1	CZE	Autre pays	Aneto
+H	33	4	1	0	0	20	0	1	1	CZE	Autre pays	Aneto
+H	33	4	1	0	0	10	0	1	1	CZE	Autre pays	Aneto
+H	33	4	1	0	0	10	0	1	1	CZE	Autre pays	Aneto
+M	33	3	1	0	0	2	0	1	0	CT	Espagne	Aneto
+H	33	3	1	0	0	2	1	1	0	CT	Espagne	Aneto
+M	68	3		1	35	50	1	1	1	FRA	France	Aneto
+H	48	3	1	1	15	60	1	1	1	AR	Espagne	Aneto
+H	63	3	1	0	30	3	1	1	1	CT	Espagne	Aneto
+M	38	2	0	0	5	7	0	1	0	CT	Espagne	Aneto
+M	53	4	0	0	20	5	1	0	0	FRA	France	Aneto
+M	33	3	1	0	0	2	1	1	1	CZE	Autre pays	Aneto
+M	33	3	1	0	0	2	1	1	1	CZE	Autre pays	Aneto
+H	33	3	1	0	0	2	1	1	1	CZE	Autre pays	Aneto
+H	33	3	1	0	0	2	1	1	1	CZE	Autre pays	Aneto
+H	33	3	1	0	0	2	1	1	1	CZE	Autre pays	Aneto
+H	33	3	1	0	0	1	0	1	0	M	Espagne	Aneto
+H	38	3	1	0	5	2	0	0	0	M	Espagne	Aneto
+H	38	3	1	0	5	2	0	0	0	M	Espagne	Aneto
+H	53	3	1	0	20	50	0	0	0	FRA	France	Aneto
+H	43	3	1	0	10	4	1	1	0	M	Espagne	Aneto
+H	43	3	1	0	10	1	1	1	0	M	Espagne	Aneto
+M	63	3	1	1	30	20	1	1	1	PV	Espagne	Aneto
+H	58	3	1	1	25	85	1	1	1	NA	Espagne	Aneto
+H	38	3	1	0	5	1	0	0	0	CL	Espagne	Aneto
+H	48	3	1	0	15	5	0	1	0	CT	Espagne	Aneto
+H	33	4	1	0	0	1	0	1	1	AR	Espagne	Aneto
+H	33	4	1	0	0	1	0	1	1	AR	Espagne	Aneto
+H	48	3	1	0	15	4	1	1	1	M	Espagne	Aneto
+H	48	3	1	0	15	4	1	1	1	M	Espagne	Aneto
+H	38	3	1	0	5	4	0	0	0	AR	Espagne	Aneto
+H	53	3	1	0	20	2	0	1	1	AR	Espagne	Aneto
+H	53	3	1	0	20	2	0	1	1	AR	Espagne	Aneto
+H	73	3	1	1	40	5	1	1	1	PV	Espagne	Aneto
+H	53	3	1	0	20	4	0	1	0	FRA	France	Aneto
+H	53	3	1	0	20	1	0	1	0	FRA	France	Aneto
+H	53	3	1	0	20	3	0	1	0	FRA	France	Aneto
+H	53	3	1	0	20	3	0	1	0	FRA	France	Aneto
+H	38	3	1	0	5	5	0	1	0	AR	Espagne	Aneto
+H	38	3	1	0	5	5	0	1	0	AR	Espagne	Aneto
+H	43	3	1	0	10	10	1	1	0	CT	Espagne	Aneto
+H	38	2	1	0	4	1	0	0	0	CT	Espagne	Aneto
+H	38	4	1	0	4	1	1	1	1	VC	Espagne	Aneto
+H	38	4	1	0	4	1	0	1	0	CT	Espagne	Aneto
+H	38	3	1	1	4	1	0	1	1	CT	Espagne	Aneto
+H	38	3	1	0	4	4	0	1	1	FRA	France	Aneto
+H	38	3	1	1	4	3	1	1	1	CM	Espagne	Aneto
+H	38	3	1	0	4	6	0	1	0	VC	Espagne	Aneto
+H	38	3	1	0	4	2	0	1	1	CT	Espagne	Aneto
+M	38	3	1	0	4	2	1	1	1	CT	Espagne	Aneto
+H	38	3	1	1	3	10	1	0	1	CT	Espagne	Aneto
+H	43	3	1	0	8	6	0	0	0	CT	Espagne	Aneto
+M	38	3	1	0	3	3	0	1	1	CT	Espagne	Aneto
+H	43	3	1	0	8	7	1	1	0	AN	Espagne	Aneto
+H	38	3	1	0	3	1	0	1	1	CT	Espagne	Aneto
+M	38	3	1	1	3	10	1	0	1	FRA	France	Aneto
+H	43	3	1	0	7	15	0	1	0	CT	Espagne	Aneto
+H	43	3	1	0	7	15	0	1	0	CT	Espagne	Aneto
+H	43	3	1	0	7	15	0	1	0	CT	Espagne	Aneto
+H	38	3	1	0	2	1	0	1	1	CT	Espagne	Aneto
+M	43	3	1	1	7	3	0	1	1	CB	Espagne	Aneto
+H	38	4	1	1	2	4	0	1	1	FRA	France	Aneto
+H	38	3	1	0	2	2	0	1	0	CT	Espagne	Aneto
+H	38	3	1	1	2	1	1	1	1	PV	Espagne	Aneto
+H	38	3	1	0	1	3	0	0	0	CT	Espagne	Aneto
+H	48	4	1	0	10	3	0	1	0	AR	Espagne	Aneto
+M	38	4	1	0	0	1	0	0	1	CT	Espagne	Aneto
+M	48	3	1	1	10	4	0	1	1	CB	Espagne	Aneto
+H	43	3	1	0	5	2	1	1	1	CL	Espagne	Aneto
+H	38	3	1	0	0	3	0	1	1	CT	Espagne	Aneto
+H	38	4	1	0	0	5	1	0	0	BEL	Autre pays	Aneto
+H	48	4		0	10	6	1	1	1	CT	Espagne	Aneto
+H	48	4	1	1	10		1	0	0	NA	Espagne	Aneto
+H	43	4	1	0	5	4	1	1	1	CT	Espagne	Aneto
+H	43	4	1	0	5	4	1	1	1	CT	Espagne	Aneto
+H	43	4	1	0	5	4	1	1	1	CT	Espagne	Aneto
+H	43	4	1	0	5	4	1	1	1	CT	Espagne	Aneto
+H	38	3	1	0	0	2	1	1	1	CZE	Autre pays	Aneto
+H	48	3	1	0	10	10	1	1	1	CT	Espagne	Aneto
+M	58	3	1	0	20	50	0	0	0	FRA	France	Aneto
+H	43	3	1	0	5	3	0	1	1	PV	Espagne	Aneto
+H	43	3	1	1	5	10	0	1	1	PV	Espagne	Aneto
+H	43	3	1	1	5	2	1	0	0	M	Espagne	Aneto
+H	43	3	1	0	5	4	0	1	0	M	Espagne	Aneto
+H	38	3	1	0	0	1	1	1	1	NLD	Autre pays	Aneto
+H	48	3	1	0	10	3	1	1	0	CT	Espagne	Aneto
+H	38	3	1	0	0	0	0	1	1	AND	Autre pays	Aneto
+H	43	3	1	0	4	1	0	1	0	CT	Espagne	Aneto
+M	43	3	1	1	4	1	0	1	1	CT	Espagne	Aneto
+H	48	3	1	1	8	2	0	1	0	AR	Espagne	Aneto
+H	43	3	1	0	3	3	0	1	1	CT	Espagne	Aneto
+H	43	3	1	1	3	2	0	1	1	PV	Espagne	Aneto
+H	43	3	1	1	3	2	0	1	1	PV	Espagne	Aneto
+H	48	3	1	1	8	1	1	1	1	CT	Espagne	Aneto
+M	43	3	1	1	3	0	1	1	1	PV	Espagne	Aneto
+H	58	3	1	0	18	6	0	1	1	CT	Espagne	Aneto
+M	48	3	1	1	7	2	0	1	1	CB	Espagne	Aneto
+H	43	3	1	0	2	1	0	1	1	AR	Espagne	Aneto
+H	53	3	1	1	12	85	1	1	1	NA	Espagne	Aneto
+H	43	3	1	1	2	2	0	1	1	PV	Espagne	Aneto
+H	43	3	1	0	1	1	0	0	0	CT	Espagne	Aneto
+H	43	4	1	1	1	5	0	0	1	CT	Espagne	Aneto
+H	43	3	1	0	1	15	0	1	1	AR	Espagne	Aneto
+H	48	3	1	1	6	15	1	1	1	NA	Espagne	Aneto
+H	43	3	1	0	1	2	0	1	0	M	Espagne	Aneto
+H	53	4	1	1	11	0	1	1	1	CT	Espagne	Aneto
+H	43	3	1	0	0	7	0	0	0	CT	Espagne	Aneto
+H	43	3	1	0	0	30	0	0	0	CT	Espagne	Aneto
+H	43	2	1	0	0	3	0	1	1	CT	Espagne	Aneto
+H	53	3	1	0	10	6	1	1	1	CT	Espagne	Aneto
+H	48	3	1	1	5	3	1	1	1	NSNC	Autre pays	Aneto
+M	43	3	1	0	0	2	1	1	1	CZE	Autre pays	Aneto
+H	43	3	1	0	0	2	1	1	1	CZE	Autre pays	Aneto
+H	43	3	1	0	0	1	0	1	1	M	Espagne	Aneto
+H	48	3	1	0	5	8	0	1	1	PV	Espagne	Aneto
+H	48	4	1	1	5	12	1	0	1	VC	Espagne	Aneto
+H	48	3	1	0	5	2	0	1	0	VC	Espagne	Aneto
+H	53	3	1	0	10	15	0	1	0	CT	Espagne	Aneto
+H	48	3	1	1	4	5	0	1	0	CT	Espagne	Aneto
+H	48	3	1	1	4	1	0	1	1	AR	Espagne	Aneto
+H	53	3	1	0	8	1	1	1	1	VC	Espagne	Aneto
+M	48	3	1	1	3	1	0	1	0	CT	Espagne	Aneto
+H	48	3	1	1	3	0	1	1	1	CT	Espagne	Aneto
+H	53	2	1	1	8	5	0	0	0	VC	Espagne	Aneto
+H	53	3	1	0	8	3	1	1	0	CT	Espagne	Aneto
+H	48	3	1	1	3	3	1	1	1	CT	Espagne	Aneto
+M	48	3	1	1	3	3	1	1	1	CT	Espagne	Aneto
+M	53	3	1	0	7	2	0	1	0	CT	Espagne	Aneto
+M	53	3	1	0	7	2	0	1	0	CT	Espagne	Aneto
+H	48	3	1	0	1	1	1	1	1	CT	Espagne	Aneto
+H	48	4	1	0	1	1	1	1	1	PV	Espagne	Aneto
+H	48	3	1	0	1	2	1	1	0	CT	Espagne	Aneto
+H	48	3	1	0	0	1	0	1	0	AR	Espagne	Aneto
+M	48	3	1	0	0	0	1	0	1	FRA	France	Aneto
+M	48	3	1	0	0	2	1	1	1	CZE	Autre pays	Aneto
+H	48	3	1	0	0	2	1	1	1	CZE	Autre pays	Aneto
+H	48	3	1	1		15	1	0	0	FRA	France	Aneto
+H	63	3	1	0	13	6	1	1	1	FRA	France	Aneto
+H	63	3	1	0	13	4	1	1	1	FRA	France	Aneto
+H	58	3	1	1	8	3	1	1	0	CT	Espagne	Aneto
+H	53	4	1	1	2	8	0	0	0	AR	Espagne	Aneto
+H	58	3	1	0	7	1	0	1	0	CT	Espagne	Aneto
+H	63	3	1	1	10	40	0	1	0	CT	Espagne	Aneto
+H	63	3	1	0	5	2	0	1	0	CT	Espagne	Aneto
+H	58	3	1	0		2	1	0	0	FRA	France	Aneto
+H	68	3	1	1	4	3	1	0	1	CT	Espagne	Aneto

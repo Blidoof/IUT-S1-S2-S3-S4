@@ -1,0 +1,114 @@
+CREATE OR REPLACE 
+PACKAGE PACK_IQ AS 
+
+  /* TODO enter package declarations (types, exceptions, methods etc) here */ 
+  PROCEDURE AFFECTER_EMP_DEPT ( EMPLO IN VARCHAR2, NOUV_DEPT IN NUMBER );
+  PROCEDURE HELLOWORLD;
+  PROCEDURE MAJ_EMP;
+  
+  FUNCTION APP_EMP_DEPT (EMPLO IN VARCHAR2, DEPART IN NUMBER) RETURN VARCHAR2;
+  FUNCTION EXIST_EMP (EMPLO IN VARCHAR2) RETURN BOOLEAN;
+  FUNCTION salau (EMPLOYE IN VARCHAR2 ) RETURN VARCHAR2;
+
+END PACK_IQ;
+
+CREATE OR REPLACE
+PACKAGE BODY PACK_IQ AS
+
+  PROCEDURE AFFECTER_EMP_DEPT ( EMPLO IN VARCHAR2, NOUV_DEPT IN NUMBER ) AS
+  BEGIN
+    UPDATE EMP SET EMP.NUMDEP = NOUV_DEPT WHERE EMP.NOM_COMPLET = EMPLO;
+  END AFFECTER_EMP_DEPT;
+
+  PROCEDURE HELLOWORLD AS
+  BEGIN
+    dbms_output.put_line('Hello World');
+  END HELLOWORLD;
+
+  PROCEDURE MAJ_EMP AS
+    CURSOR recherche IS SELECT salaire, NUMEMP FROM EMP WHERE NUMDEP = 1;
+    CURSOR developpement IS SELECT salaire, NUMEMP FROM EMP WHERE NUMDEP = 2;
+    CURSOR facturation IS SELECT salaire, NUMEMP FROM EMP WHERE NUMDEP = 3;
+    CURSOR direction IS SELECT salaire, NUMEMP FROM EMP WHERE NUMDEP = 4;
+
+    newsal EMP.SALAIRE%TYPE;
+
+    moyenneActu NUMBER(15);
+
+  BEGIN
+
+    --On calcule la moyenne actuelle des salaires pour le département facturation
+    SELECT AVG(salaire) INTO moyenneActu FROM EMP;
+
+    --Departement RECHERCHE
+    FOR employe in recherche LOOP
+    
+    newsal:=employe.salaire+200;
+    --
+    UPDATE EMP SET SALAIRE=newsal where NUMEMP = employe.numemp;
+    END LOOP;
+    
+    --Departement DEVELOPPEMENT
+    FOR employe in developpement LOOP
+    
+    newsal:=employe.salaire+40;
+    --
+    UPDATE EMP SET SALAIRE=newsal where NUMEMP = employe.numemp;
+    END LOOP;
+    
+    --Departement FACTURATION
+    FOR employe in facturation LOOP
+    
+    newsal:=moyenneActu;
+    --
+    UPDATE EMP SET SALAIRE=newsal where NUMEMP = employe.numemp;
+    END LOOP;
+    
+    --Departement DIRECTION
+    FOR employe in direction LOOP
+    
+    newsal:=employe.salaire*2;
+    --
+    UPDATE EMP SET SALAIRE=newsal where NUMEMP = employe.numemp;
+    END LOOP;
+
+    commit;
+  END MAJ_EMP;
+
+  FUNCTION APP_EMP_DEPT (EMPLO IN VARCHAR2, DEPART IN NUMBER) RETURN VARCHAR2 AS
+  BEGIN
+    -- TODO : implémentation requise pour FUNCTION PACK_IQ.salau
+    RETURN NULL;
+  END APP_EMP_DEPT;
+
+  FUNCTION EXIST_EMP (EMPLO IN VARCHAR2) RETURN BOOLEAN AS
+  
+    CURSOR employes IS SELECT EMP.NOM_COMPLET FROM EMP;
+    exist BOOLEAN;
+    
+    BEGIN
+    exist := FALSE;
+    
+    
+      FOR employe in employes LOOP
+        IF EMPLO = employe.NOM_COMPLET
+        THEN 
+        exist := TRUE;
+        END IF;
+        END LOOP;
+    
+      commit;
+      RETURN exist;
+  END EXIST_EMP;
+
+  FUNCTION salau (EMPLOYE IN VARCHAR2 ) RETURN VARCHAR2 AS
+  BEGIN
+    -- TODO : implémentation requise pour FUNCTION PACK_IQ.salau
+    RETURN NULL;
+  END salau;
+
+END PACK_IQ;
+
+
+--Pour appeller une fonction du package, utiliser la notation pointée, de la forme :
+PACK_IQ.NomFonction(Paramètres);

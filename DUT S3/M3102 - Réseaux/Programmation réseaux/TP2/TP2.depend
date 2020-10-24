@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1571910479 source:/users/etud/info/amurillo/Bureau/TP2/TP2/client.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<string.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<netdb.h>
+	<arpa/inet.h>
+
+1571912095 source:/users/etud/info/amurillo/Bureau/TP2/client.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<string.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<netdb.h>
+	<arpa/inet.h>
+
