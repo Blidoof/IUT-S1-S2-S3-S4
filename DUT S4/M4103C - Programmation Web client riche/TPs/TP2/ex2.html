@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>TP2 Javascript</title>
+    <script type="text/javascript">
+
+    var compteur = new Number(0);
+    var resultat = new Number(0);
+
+    function somRec(i) {
+
+      if (isNaN(i) || i < 0) {
+        return undefined
+      }
+
+      if (compteur <= i) {
+        resultat += compteur;
+        compteur++;
+        somRec(i);
+        alert(resultat)
+      }
+
+      compteur = 0;
+      return resultat;
+    }
+
+    function somFor(i) {
+      resultat = 0;
+
+      if (isNaN(i) || i < 0) {
+        return undefined;
+      }
+
+      else {
+
+        for (var j = 0; j <= i; j++) {
+          resultat += compteur;
+          compteur++;
+        }
+
+        compteur = 0;
+        return resultat;
+      }
+
+
+    }
+
+/*
+      i = prompt("Saisir un entier positif : ", "0");
+      i = parseInt(i);
+      alert("La valeur de somRec(" + i + ") est : " + somRec(i) );
+*/
+
+    </script>
+  </head>
+  <body>
+
+  </body>
+</html>

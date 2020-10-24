@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>TP5 JS</title>
+    <script>
+
+        var leVecteur = [0,2,3,3,0,2,4,6,0];
+
+        /* J'y ai longtemps réfléchi et à moins de passer à côté de quelque chose je ne vois pas comment
+        réaliser ceci en récursivité */
+
+        function zip(v)
+        {
+            var estDejaPresent = new Boolean(false);
+            var nb = 0;
+            var nombresDejaRentres = new Array();
+            var compresse = new Array();
+
+            for(var i = 0 ; i <= leVecteur.length-1 ; i++)
+            {
+                estDejaPresent = false;
+
+                    for(var j = 0 ; j <= nombresDejaRentres.length-1 ; j++)
+                    {
+                        if(leVecteur[i] == nombresDejaRentres[j])
+                            estDejaPresent = true;
+                    }
+                    if(!estDejaPresent)
+                    {
+                        //On le met dans un vecteur pour tester les nombre déjà entrés
+                        nombresDejaRentres.push(leVecteur[i]);
+
+                        //On l'ajoute dans le vecteur compressé
+                        compresse.push(leVecteur[i]);
+                    }
+            }
+            alert("Vecteur compréssé : " + compresse)
+        }
+
+    </script>
+
+</head>
+
+<body>
+
+<label>Lancer la fonction de compression d'un vecteur : </label>
+<input type="button" onclick="zip(leVecteur)" value="Compresser">
+
+</body>
+
+</html>

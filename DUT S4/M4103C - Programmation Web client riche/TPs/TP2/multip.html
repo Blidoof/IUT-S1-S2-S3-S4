@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>TP2 Javascript</title>
+    <script type="text/javascript">
+
+    function verifResultat() {
+      var bonnesReponses = new Number(0);
+
+      if (document.getElementById("myForm").elements["input1"].value == "6") {
+        bonnesReponses++;
+      }
+      if (document.getElementById("myForm").elements["input2"].value == "42") {
+        bonnesReponses++;
+      }
+      if (document.getElementById("myForm").elements["input3"].value == "16") {
+        bonnesReponses++;
+      }
+      if (document.getElementById("myForm").elements["input4"].value == "15") {
+        bonnesReponses++;
+      }
+
+      confirm("Vous avez " + bonnesReponses + " bonnes réponses, correction ?");
+
+    }
+    </script>
+  </head>
+  <body>
+
+    <form onsubmit="verifResultat()" id="myForm" >
+      <label for="input1">3*2 :</label>
+      <input type="text" id="input1" name="input1" value="" id="cc"> <br>
+      <label for="input1">6*7 :</label>
+      <input type="text" id="input2" name="input2" value=""> <br>
+      <label for="input1">4*4 :</label>
+      <input type="text" id="input3" name="input3" value=""> <br>
+      <label for="input1">3*5 :</label>
+      <input type="text" id="input4" name="input4" value="">
+      <br> <br>
+      <button type="submit" name="button">Vérifier les résultats</button>
+    </form>
+
+  </body>
+</html>

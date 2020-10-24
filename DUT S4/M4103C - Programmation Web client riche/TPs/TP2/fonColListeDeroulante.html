@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>TP2 Javascript</title>
+
+  <script type="text/javascript">
+    function choixCouleur() {
+      document.body.style.backgroundColor = document.getElementById("couleur").value;
+    }
+  </script>
+</head>
+
+<body>
+
+
+  <h1>Changer la couleur du fond :</h1>
+
+  <select id="couleur">
+    <option value="#C0C0C0">Gris</option>
+    <option value="#669999">Bleu</option>
+    <option value="#99FF66">Vert</option>
+  </select>
+
+  <button type="button" onclick="choixCouleur()" name="button">Go</button>
+
+
+</body>
+
+</html>

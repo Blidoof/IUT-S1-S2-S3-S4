@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>TP1 JS</title>
+    <script type="text/javascript">
+    var largeur = new Number;
+    var longueur;
+
+      function rectangle() {
+        largeur = prompt("Saisir la largeur", "42");
+        longueur = prompt ("Saisir la longueur", "69");
+
+        var x = perimetre(largeur, longueur);
+        document.getElementById("affichage").innerHTML = "perimetre = " + x;
+      }
+
+      function perimetre(largeur, longueur) {
+        if (largeur != null || longueur != null) {
+          var perimetre = (parseFloat(largeur)  + parseFloat(longueur)) *2;
+          return perimetre;
+        }
+        else {
+          return 0;
+        }
+      }
+
+    </script>
+  </head>
+  <body>
+
+    <h1>Ecriture d'une fonction simple</h1>
+    <p>Cliquez sur le bouton pour calculer le perimetre&nbsp;: <button onclick="rectangle()">Lancer la fonction</button></p>
+
+    <h1>Périmetre du rectangle :</h1>
+    <p id= "affichage"></p>
+  </body>
+</html>

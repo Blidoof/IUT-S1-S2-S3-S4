@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>TP5 JS</title>
+    <script type="text/javascript">
+
+      //Varibles nécéssaires au chronomètre
+      var startTime = 0
+      var start = 0
+      var end = 0
+      var diff = 0
+      var timerID = 0
+      var depuisLeDebut = true; // Pour savoir si le chrono reprend depuis le début ou non lors de son démarrage (dans le cas stop/reset)
+
+      //Je vais être honnête j'ai pris cette fonction sur internet
+      function chrono(){
+        end = new Date();
+        diff = end - start;
+        diff = new Date(diff);
+        var msec = diff.getMilliseconds();
+        var sec = diff.getSeconds();
+        var min = diff.getMinutes();
+        var hr = diff.getHours()-1;
+        if (min < 10){
+          min = "0" + min;
+        }
+        if (sec < 10){
+          sec = "0" + sec;
+        }
+        if(msec < 10){
+          msec = "00" +msec;
+        }
+        else if(msec < 100){
+          msec = "0" +msec;
+        }
+        document.getElementById("chronotime").value = hr + " h: " + min + " m: " + sec + " s: " + msec + " ms";
+        timerID = setTimeout("chrono()", 10);
+      }
+
+      function demarrerChrono(){
+        if (depuisLeDebut) {
+          start = new Date()
+          depuisLeDebut = false; //La prochaine fois qu'on démarre (si on ne reset pas) le chrono ne partira pas du début
+        }
+        else {
+          start = new Date()-diff
+          start = new Date(start)
+        }
+        chrono()
+
+      }
+
+      function chronoReset(){
+        document.getElementById("chronotime").value = "0:00:00:000"
+        start = new Date()
+        depuisLeDebut = true; // On repartira du début
+      }
+
+      function arreterChrono(){
+        clearTimeout(timerID)
+      }
+
+    </script>
+  </head>
+  <body>
+    <form name="chronoForm">
+      <input type="text" name="chronotime" id="chronotime" value="0 h: 00 m: 00 s: 00 ms"/>
+      <input type="button" name="start" value="Start" onClick="demarrerChrono()" />
+      <input type="button" name="stop" value="Stop" onClick="arreterChrono()" />
+      <input type="button" name="reset" value="Reset" onClick="chronoReset()" />
+    </form>
+  </body>
+</html>

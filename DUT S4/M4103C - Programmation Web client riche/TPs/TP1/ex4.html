@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>TP1 JS</title>
+    <script type="text/javascript">
+
+      function perimetre() {
+        largeur = document.getElementById("myForm").elements["largueur"].value;
+        longueur = document.getElementById("myForm").elements["longueur"].value;
+        var perimetre = (parseFloat(largeur)  + parseFloat(longueur)) *2;
+        document.write("Perimetre : " + perimetre);
+      }
+
+    </script>
+  </head>
+  <body>
+    <form id="myForm" method="post">
+      <input type="text" name="largueur" value="3"> <br>
+      <input type="text" name="longueur" value="8"> <br>
+      <input type="button" name="" onclick="perimetre()" value="Calculer Périmètre">
+
+    </form>
+  </body>
+</html>

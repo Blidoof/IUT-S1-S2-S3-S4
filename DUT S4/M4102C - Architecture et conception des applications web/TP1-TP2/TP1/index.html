@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Ajax - TP1</title>
+  <script type="text/javascript">
+
+  function ecrireResultat(reponse)
+  {
+    document.getElementById('zoneReponse').innerHTML = reponse;
+  }
+
+  function verificationVille(saisie)
+  {
+    // ancien code de compatibilité, aujourd’hui inutile
+    if (window.XMLHttpRequest) { // Mozilla, Safari, IE7+...
+      httpRequest = new XMLHttpRequest();
+    }
+    else if (window.ActiveXObject) { // IE 6 et antérieurs
+      httpRequest = new ActiveXObject("Microsoft.XMLHTTP");
+    }
+
+    fichier = "monPhp.php?ville=" + saisie;
+
+    httpRequest.open("GET", fichier, false);
+
+    httpRequest.send(null);
+
+    if (httpRequest.readyState == 4) {
+      reponse = httpRequest.responseText;
+    }
+
+    if (reponse == "existe"){
+      ecrireResultat(saisie +' existe !');
+    }
+    else if (reponse == "existe_pas") {
+      ecrireResultat(saisie + ' n\'existe pas !');
+    }
+  }
+  </script>
+</head>
+<body>
+  <form name="" action="" methode="GET">
+    <input name="saisie" type="text" onKeyUp="verificationVille(this.value)" >
+    <div id="zoneReponse"></div>
+  </form>
+</body>
+</html>

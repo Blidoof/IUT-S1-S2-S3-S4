@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>TP 5 JS</title>
+  </head>
+
+  <script type="text/javascript">
+    var D1 = "<a href='https://arthurmurillo.pro'>D1</a>";
+    var D2 = "<a href='https://dylanmendiboure.fr'>D2</a>";
+    var mots = new Array("art", "plaire", "est", "tromper", "nous", "avons", "afin", "pas", "mourir", "vérité");
+    var liens = new Array([D1,D2],D1,D1,D1,D2,D2,D2,D2,D2,D2);
+
+    function recherche() {
+      chaineAChercher = document.getElementById("mot").value;
+      document.getElementById("resultat").innerHTML = liens[mots.indexOf(chaineAChercher)];
+    }
+  </script>
+
+  <body>
+    <h1>Recherche HTML</h1>
+    <input type="text" id="mot" name="" value=""> <button type="button" onclick="recherche()" name="button">Recherche</button>
+    <p id="resultat" ></p>
+  </body>
+</html>

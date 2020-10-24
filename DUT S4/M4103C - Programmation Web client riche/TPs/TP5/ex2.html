@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <body>
+    <h1>Ma première découverte</h1>
+    <div id="map" style="width:400px;height:400px;background:yellow"></div>
+
+    <script type="text/javascript">
+      function maCarte(long = 51.5, lat = -0.12, zoom = 10) {
+
+        //Création d'un tableau d'options pour définir le lieu, zoom et type de carte affiché
+        var mesOptions = {
+          center: new google.maps.LatLng(long, lat),
+          zoom: zoom,
+          mapTypeId: google.maps.MapTypeId.HYBRID
+        }
+
+        //Affichage de la carte
+        var carte = new google.maps.Map(document.getElementById("map"), mesOptions);
+      }
+
+      //Affichage de la France
+      function France() {
+        maCarte(46.52863469527167,2.43896484375, 5);
+      }
+
+    </script>
+
+
+    <button type="button" onclick="France()" name="button">Montrez france</button>
+
+    <!-- Intégration de la bibliothèque de l'api pour pouvoir afficher la carte -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCN_JS14Mdg6F6Ijy7lGg6Uy-A5k_PLRnM&callback=maCarte"></script>
+
+  </body>
+</html>

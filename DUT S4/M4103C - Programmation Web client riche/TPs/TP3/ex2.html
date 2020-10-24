@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>TP3 JS</title>
+</head>
+<script type="text/javascript">
+
+  window.onload = function () {
+    verifURL();
+    verifIp();
+  }
+
+  function verifIp()
+    {
+    fetch('https://api.ipify.org/?format=json')
+      .then(response => {
+        return response.json()
+      })
+      .then(data => {
+        var ip = data.ip;
+        var tabip = ip.split('.');
+        if (tabip[tabip.length-1] != "192") {
+          document.getElementById("ip").innerHTML = "Votre IP ne se termine pas par 192";
+        }
+
+      })
+    }
+
+  function verifURL() {
+    var url = window.location.href;
+    var fichierDecompose = url.split('.');
+    if (fichierDecompose[fichierDecompose.length-1] != "fr") {
+      document.getElementById("url").innerHTML = "Vous n'utilisez pas un nom de domaine en .fr";
+    }
+  }
+
+  function openWindows() {
+    for (var i = 0; i < 10; i++) {
+      var chaine = "window" + i;
+      wopen("bamboozling.jpg", chaine, 500, 500);
+    }
+  }
+
+  function wopen(url, name, w, h) {
+
+    w += 32;
+    h += 96;
+    wleft = (screen.width - w) / 2;
+    wtop = (screen.height - h) / 2;
+
+    if (wleft < 0) {
+      w = screen.width;
+      wleft = 0;
+    }
+    if (wtop < 0) {
+      h = screen.height;
+      wtop = 0;
+    }
+    if (wleft > 0) {
+      wleft = Math.floor(Math.random() * wleft);
+    }
+    var win = window.open(url, name,
+      'width=' + w + ',height=' + h + ',left=' + wleft + ',top=' + wtop);
+
+    win.focus();
+  }
+</script>
+
+<body>
+  <img src="trap.gif" alt=""> <br>
+  <button type="button" onclick="openWindows()" name="button">Cliquez ici si votre ip se termine par 192 ou que votre domaine se termine par fr pour récupérer votre prix</button>
+  <h3>Critères que vous ne remplissez pas</h3>
+  <ul>
+    <li><p id="ip"></p></li>
+    <li><p id="url"></p></li>
+  </ul>
+</body>
+</html>

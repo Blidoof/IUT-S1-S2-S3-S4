@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>TP3 JS</title>
+
+    <script type="text/javascript">
+
+    window.onload = function init () {
+      document.getElementById("verifLabel").innerHTML = Math.round(Math.random() *10000);
+
+      if (navigator.language != "fr") {
+        alert("La langue du navigateur n'est pas le francais gros");
+      }
+      if (!window.chrome) {
+        alert("Utilise chrome stp, faut pas abuser")
+      }
+    }
+
+    function onFormSubmit() {
+      if(document.getElementById("myForm").elements["email"].value.match("@.{1,}") == null) {
+        alert("Adresse email invalide !");
+      }
+      else {
+          if (!(document.getElementById("verifLabel").innerHTML == document.getElementById("myForm").elements["verif"].value)) {
+            document.getElementById("verifLabel").innerHTML = Math.round(Math.random() *10000);
+            document.getElementById("verif").focus();
+          }
+          else {
+            alert("Le message a été bien envoyé, " + document.getElementById("myForm").elements["name"].value);
+            window.location='mailto:' + document.getElementById("myForm").elements["email"].value + '?subject='+ document.getElementById("myForm").elements["subject"].value + '&body=' + document.getElementById("myForm").elements["name"].value + ' dit : ' + document.getElementById("myForm").elements["message"].value ;
+          }
+
+      }
+    }
+
+    function testerCategorie() {
+      if (document.getElementById("category").value == "other") {
+        ajouterCategorie();
+      }
+    }
+
+    function ajouterCategorie() {
+      var nouvelleCategorie = prompt("Quelle est votre catégorie ?");
+
+      if (/^[0-9]/.test(nouvelleCategorie)) {
+        alert("La catégorie ne doit pas commencer par un chiffre");
+      }
+      else {
+        var select = document.getElementById('category');
+        var option = document.createElement('option');
+
+        option.appendChild( document.createTextNode(nouvelleCategorie));
+        option.value = nouvelleCategorie;
+
+        select.appendChild(option);
+      }
+    }
+
+    </script>
+    <style>
+      #boxes{
+      content: "";
+      display: table;
+      clear: both;
+      }
+      div{
+      float:left;
+      height:470px;
+      width:23%;
+      padding:0 10px;
+      }
+      #column1{
+      background-color: #a1edcc;
+      }
+      #column2{
+      background-color:#a0e9ed;
+      width:43%;
+      }
+      #column3{
+      background-color:#f497f1;
+      }
+      h2{
+      color: #000000;
+      text-align:center;
+      }
+    </style>
+    <noscript>
+      <h1>OH MEC ACTIVE TON javascript</h1>
+    </noscript>
+  </head>
+  <body >
+    <div class="">
+      <h1>Conctact US</h1>
+      <form id="myForm" onsubmit="onFormSubmit()">
+        <label for="name">Your name</label> <br>
+        <input type="text" name="name" value="" required="required"> <br> <br>
+        <label for="email">Email</label> <br>
+        <input type="text" name="email" value="" required="required"> <br> <br>
+        <label for="subject">Subject</label> <br>
+        <input type="text" name="subject" value="" required="required"> <br> <br>
+        <label for="category">Category</label> <br>
+        <select class="" name="category" onchange="testerCategorie()" id="category">
+          <option value="smart_building">Smart Building</option>
+          <option value="energy">Energy</option>
+          <option value="management">Management</option>
+          <option value="ontology">Ontology</option>
+          <option value="micro_grid">Micro Grid</option>
+          <option value="other">Other</option>
+        </select> <br> <br>
+        <label for="message">Your message</label> <br>
+        <textarea name="message" rows="4" cols="40"></textarea> <br> <br>
+        <input type="verif" name="verif" id="verif" value="" required="required"><label for="verif" id="verifLabel"></label><br><br>
+        <button type="submit" name="button">Send</button>
+      </form>
+    </div>
+    <div class="">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11580.71653065535!2d-1.5086245!3d43.4777319!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x904d1833653f1356!2sIUT%20de%20Bayonne%20et%20du%20Pays%20Basque!5e0!3m2!1sfr!2sfr!4v1581496088824!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+    </div>
+  </body>
+</html>

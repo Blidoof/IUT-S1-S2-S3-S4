@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Quelques API Rest</title>
+
+    <script type="text/javascript">
+
+      function apiRandomUser() {
+        fetch('https://randomuser.me/api/')
+          .then(response => {
+            return response.json()
+          })
+          .then(data => {
+            // Work with JSON data here
+            console.log(data.results[0])
+            document.getElementById("resultRandom").innerHTML ="Vous avez récupéré une personne dont le sexe est " + data.results[0].gender + " et dont le nom est " +
+            data.results[0].name.first+ " " + data.results[0].name.last;
+          })
+        }
+
+        function apiSwapi() {
+          fetch('https://swapi.co/api/people/6/')
+            .then(response => {
+              return response.json()
+            })
+            .then(data => {
+              // Work with JSON data here
+              document.getElementById("resultSwapi").innerHTML ="Vous avez récupéré une personne dont le nom est " + data.name;
+            })
+          }
+    </script>
+  </head>
+  <body>
+    <h1>Acceder à l'API randomuser.me</h1>
+    <p>Résultat : </p> <p id="resultRandom"></p>
+    <button onclick="apiRandomUser()" name="button">Afficher un random user</button>
+
+    <h1>Acceder à l'API Swapi</h1>
+    <p>Résultat : </p> <p id="resultSwapi"></p>
+    <button onclick="apiSwapi()" name="button">Afficher un personnage de Star Wars</button>
+
+  </body>
+</html>

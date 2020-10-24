@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>TP5 JS</title>
+    <script>
+        function creerCookie()
+        {
+            var date = Date.now();
+
+            var nbJours = 30; //Le nombre de jours après la date actuelle à laquelle le cookie va expirer
+
+            var expiration = new Date(date + nbJours * 86400000); // Car 86400000ms correspond à 1 jour
+
+            expiration = expiration.toUTCString(); //On convertit la date en string
+
+            monCookie = document.getElementById('name').value;
+
+            monCookie = "username=" + monCookie + ";" + "expires=" + expiration + ";"; //On remplit le cookie
+
+            document.cookie = monCookie; //On écrit le cookie
+        }
+
+        function getUsername()
+        {
+            var valeurUsername;
+
+            var tabCookies = document.cookie.split(';');
+
+            for(var i=0; i< tabCookies.length; i++)
+            {
+                var coupleCleValeur = tabCookies[i].split('=');
+
+                var cle = coupleCleValeur[0].trim();
+
+                var valeur = coupleCleValeur[1];
+
+                if(cle == "username")
+                {
+                    valRetournee = valeur;
+                }
+            }
+            return valeurUsername;
+        }
+
+        window.onload= function verifEtTraitement()
+        {
+            var saisieUtilsateur = document.getElementById('name').value;
+
+            if(getUsername()==saisieUtilsateur)
+            {
+                alert("Bienvenue de nouveau mon cher " + saisieUtilsateur);
+            }
+            else
+            {
+                creerCookie();
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <form>
+        <label>Saisissez votre nom : </label> <input type="text" id="name">
+    </form>
+</body>
+
+</html>

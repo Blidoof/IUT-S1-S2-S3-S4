@@ -1,0 +1,19 @@
+<html>	
+	<head>
+		<title>HEllo Iut</title>
+		
+		<script>
+			fetch('http://iparla.iutbayonne.univ-pau.fr/~roose/json/hello.php?method=hello&format=json')
+			.then(response => {
+				return response.json()
+			})
+			.then(data => {
+				console.log(data);
+				document.write("Vous avez récupéré une donnée de code :" + data.code + " avec un status " + data.status + " et un message " + data.data);
+			})
+			
+		</script>
+	</head>
+	<body>
+	</body>
+</html>

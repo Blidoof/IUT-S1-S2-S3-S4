@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>TP5 JS</title>
+    <script>
+        function sequence()
+        {
+          //Récupération des valeurs
+          var chaine = document.getElementById('chaine').value;
+
+          var a = document.getElementById('paramA').value;
+
+          var b = document.getElementById('paramB').value;
+
+            //Si l'index du morceau a est plus petit que celui du morceau b, il est situé avant dans la chaine
+            if(chaine.indexOf(a) <= chaine.indexOf(b))
+            {
+                alert("A est situé avant B")
+                return true;
+            }
+            else
+            {
+              alert("B est situé avant A")
+                return false;
+            }
+        }
+    </script>
+</head>
+<body>
+    <label>Chaine dans laquelle rechercher : </label><input type="text" id="chaine">
+    <br>
+    <label>Morceau A : </label><input type="text" id="paramA">
+    <br>
+    <label>Morceau B : </label><input type="text" id="paramB">
+    <br>
+    <input type="button" value="Go !" onclick="sequence()">
+</body>
+</html>

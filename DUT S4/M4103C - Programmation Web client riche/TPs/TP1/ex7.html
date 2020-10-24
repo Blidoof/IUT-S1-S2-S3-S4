@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>TP1 JS</title>
+    <script type="text/javascript">
+
+      function calcul() {
+
+        var fonction = document.getElementById("myForm").elements["fonction"].value;
+
+        var resultat = eval(fonction);
+
+        document.getElementById("myForm").elements["resultat"].value = resultat;
+
+      }
+
+    </script>
+  </head>
+  <body>
+    <form id="myForm" method="post">
+      <input type="text" name="fonction" value="1+1"> <button type="button" onclick="calcul()" name="button">=</button> <input type="text" id ="result" name="resultat" value=""><br><br>
+      <a href="javascript:calcul()">Voir</a>
+    </form>
+  </body>
+</html>

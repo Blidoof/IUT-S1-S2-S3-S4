@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Quelques API Rest</title>
+
+    <script type="text/javascript">
+
+      function apiThanos() {
+        var chaine = 'http://localhost/thapi.php?fin=' + document.getElementById("completer").value;
+        fetch(chaine)
+          .then(response => {
+            return response.json()
+          })
+          .then(data => {
+            // Work with JSON data here
+            console.log(data)
+            document.getElementById("resultThanos").innerHTML = data.message;
+          })
+        }
+    </script>
+  </head>
+  <body>
+      <label for="completer">Choisir la fin de la quote</label>
+      <input type="text" name="completer" value="" id="completer">
+      <button type="submit" name="button" onclick="apiThanos()">Valider</button>
+    <h1>Thanos dit :</h1>
+    <p id="resultThanos"></p>
+  </body>
+</html>

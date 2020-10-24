@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>TP1 JS</title>
+    <script type="text/javascript">
+
+      function tableMulti() {
+        var nbSaisi = new Number;
+        nbSaisi = document.getElementById("myForm").elements["entier"].value;
+
+        nbSaisi = parseInt(nbSaisi);
+
+        if (Number.isInteger(nbSaisi) && nbSaisi <= 10 && nbSaisi >= 0) {
+          for (var i = 0; i <= 10; i++) {
+            var chaine = nbSaisi + " x " + i + " = " + (nbSaisi*i) + "<br>";
+            document.write(chaine);
+          }
+        }
+        else {
+          alert("Vous n'avez pas fourni un nombre entre 1 et 10, ou vous n'avez pas fourni un nombre");
+        }
+
+      }
+
+    </script>
+  </head>
+  <body>
+    <form id="myForm" method="post">
+      <label for="entier">Saisir un entier entre 1 et 10 : </label> <input type="text" name="entier" value="8"> <br>
+      <input type="button" name="" onclick="tableMulti()" value="Voir la table de multiplication">
+    </form>
+  </body>
+</html>

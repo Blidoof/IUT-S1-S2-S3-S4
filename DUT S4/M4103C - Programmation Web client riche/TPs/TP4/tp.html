@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>TD 4 de JS</title>
+  </head>
+
+  <script type="text/javascript">
+    function parfait()
+    {
+      var borneInf=1;
+      var borneSup=document.calculs.entree2.value;
+
+      if (borneSup != "")
+      {
+        for (var z=borneInf; z<=borneSup; z++)
+        {
+          sum=0;
+          for (var i=1; i<z; i++)
+          {
+            mod=z % i;
+            if (mod == 0) {
+              sum+=i;
+            }
+          }
+          if (sum == z) {
+            document.calculs.sortie.value+=z+", ";
+          }
+        }
+        document.calculs.sortie.value+="FINI";
+      }
+      else
+      alert("Veuillez saisir la borne supérieure");
+    }
+
+    function calculExpression() {
+      var x = document.formExpression.x.value;
+      var n = document.formExpression.n.value;
+      var resultat = 1;
+
+      if (x != "" && n >= 2) {
+        for (var i = 1; i <= n; i++) {
+          resultat += Math.pow(x,i);
+        }
+        document.formExpression.resultat.value = resultat;
+      }
+      else {
+        alert("merci de saisir une valeur de x ou de mettre une valeur de n supérieure ou égale à 2");
+      }
+    }
+
+    function mergeTab() {
+      var tabInit= new Array(["a", "b", "c", "d"], ["e", "f", "g", "h"], ["i", "j", "k", "l"]);
+      var tabFinal = new Array();
+
+      for (var i = 0; i < tabInit.length; i++) {
+        tabFinal.push(tabInit[i]);
+      }
+      alert(tabFinal);
+    }
+
+    function produitScalaire() {
+      var vecteur1 = new Array(3,2,-4);
+      var vecteur2 = new Array(2,-3,5);
+      var prod = 0;
+
+      if (vecteur1.length == vecteur2.length) {
+        for (var i = 0; i < vecteur1.length; i++) {
+          prod += (vecteur1[i] * vecteur2[i]);
+        }
+        alert(prod);
+      }
+      else {
+        alert("Fournissez des vecteurs de même taille")
+      }
+    }
+
+    function intervalleRegex() {
+      var chaine = document.intervalle.chaine.value;
+
+      if (chaine != "") {
+        if (chaine.match("^[a-d]|^[A-D]") != null) {
+          document.intervalle.resultat.value = "Correct !";
+        }
+        else {
+          document.intervalle.resultat.value = "Pas bon";
+        }
+      }
+      else {
+        alert("mec saisi un truc au moins");
+      }
+    }
+
+    function arobaseRegex() {
+      var chaine = document.arobase.chaine.value;
+
+      if (chaine != "") {
+        if (chaine.match("^[^@]+@[^@]+$") != null) {
+          document.arobase.resultat.value = "Correct !";
+        }
+        else {
+          document.arobase.resultat.value = "Pas bon";
+        }
+      }
+      else {
+        alert("Mec saisi un truc au moins");
+      }
+    }
+
+    function chiffreRegex() {
+      var chaine = document.chiffre.chaine.value;
+
+      if (chaine != "") {
+        if (chaine.match("(?=.*?[0-9]).+") != null) {
+          document.chiffre.resultat.value = "Correct !";
+        }
+        else {
+          document.chiffre.resultat.value = "Pas bon";
+        }
+      }
+      else {
+        alert("Mec saisi un truc au moins");
+      }
+    }
+
+    function remplacementChaine() {
+      var chaine = document.remplacement.chaine.value;
+      var newChaine = "";
+
+      for (var i = 0; i < chaine.length; i++) {
+        var nombre = parseInt(chaine[i]);
+
+        if(!isNaN(nombre)) {
+          chaine = chaine.replace(chaine[i],"*")
+        }
+      }
+
+      document.remplacement.resultat.value = chaine;
+    }
+
+
+  </script>
+
+  <body>
+  		<h2 align="center">Calculs sur les nombres parfaits</h2>
+  		<div align="center">
+  			<form name="calculs">
+  				<input type="text" name="entree2" size="20" /> Borne superieure
+  				<br />
+  				<textarea name="sortie" id="sortie" cols="50" rows="5"></textarea> Résultat(s)
+  				<br />
+  				<br />
+  				<input type="button" onClick="parfait();" value="Cliquer ici pour savoir si la série de nombres compris entre 1 et la borne contient des nombres parfaits"/> <br />
+  				<br />
+          <button type="button" onClick="document.getElementById('sortie').value = ''" name="button">Effacer valeurs</button>
+  			</form>
+  		</div>
+
+      <h2 align="center">Calculs sur une expression</h2>
+  		<div align="center">
+  			<form name="formExpression">
+  				<input type="text" name="x" size="20" /> Saisir x
+  				<br />
+          <input type="text" name="n" size="20" /> Saisir n
+  				<br />
+  				<input type="text" name="resultat" value=""> Résultat(s)
+  				<br />
+  				<br />
+  				<input type="button" onClick="calculExpression();" value="Cliquer ici calculer l'expression 1+x^2+x^3+...+x^n"/> <br />
+  			</form>
+  		</div>
+
+      <h2 align="center"> réduction tableau à 2 dimensions </h2>
+      <div align="center">
+        <button type="button" onclick="mergeTab()" name="button">Cliquez ici pour fusioner le tableau</button>
+      </div>
+
+      <h2 align="center"> Produit scalaire de 2 vecteurs </h2>
+      <div align="center">
+        <button type="button" onclick="produitScalaire()" name="button">Cliquez ici pour calculer le produit scalaire</button>
+      </div>
+
+      <h2 align="center"> Tester si une chaine commence par une lettre entre a et d en minuscle ou majuscule </h2>
+      <div align="center">
+        <form name="intervalle">
+          <input type="text" name="chaine" value="">
+          <br>
+          <input type="text" name="resultat" value=""> Résultat
+          <br />
+          <br>
+          <input type="button" onClick="intervalleRegex();" value="Cliquer ici savoir si la chaine commence comme il faut"/> <br />
+        </form>
+      </div>
+
+      <h2 align="center"> Tester si une chaine contient un seul @ </h2>
+      <div align="center">
+        <form name="arobase">
+          <input type="text" name="chaine" value="">
+          <br>
+          <input type="text" name="resultat" value=""> Résultat
+          <br />
+          <br>
+          <input type="button" onClick="arobaseRegex();" value="Cliquer ici savoir si la chaine a un seul @"/> <br />
+        </form>
+      </div>
+
+      <h2 align="center"> Tester si une chaine contient au moins un chiffre </h2>
+      <div align="center">
+        <form name="chiffre">
+          <input type="text" name="chaine" value="">
+          <br>
+          <input type="text" name="resultat" value=""> Résultat
+          <br />
+          <br>
+          <input type="button" onClick="chiffreRegex();" value="Cliquer ici savoir si la chaine contient au moins un chiffre"/> <br />
+        </form>
+      </div>
+
+      <h2 align="center">Remplacer les chiffres par * </h2>
+      <div align="center">
+        <form name="remplacement">
+          <input type="text" name="chaine" value="">
+          <br>
+          <input type="text" name="resultat" value=""> Résultat
+          <br />
+          <br>
+          <input type="button" onClick="remplacementChaine();" value="Cliquer ici pour remplacer les chiffres par *"/> <br />
+        </form>
+      </div>
+  	</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>TP2 Javascript</title>
+
+  </head>
+  <body>
+
+  </body>
+  <script type="text/javascript">
+
+  var couleur = prompt("Veuillez choisir une couleur de fond (gris, bleu ou vert) :", "bleu");
+
+  switch (couleur) {
+    case "gris":
+      document.body.style.backgroundColor = "#C0C0C0";
+      break;
+    case "bleu":
+      document.body.style.backgroundColor = "#669999";
+      break;
+    case "vert":
+      document.body.style.backgroundColor = "#99FF66";
+      break;
+    default:
+    alert("La couleur choisie n'est pas reconnue.")
+    location.reload();
+  }
+
+  </script>
+</html>

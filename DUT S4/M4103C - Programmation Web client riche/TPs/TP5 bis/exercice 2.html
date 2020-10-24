@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>TP5 JS</title>
+    <script>
+
+        var vecteur = [2,5,3,4,6];
+
+        function cacul()
+        {
+            var sommeCarres = 0;
+
+            for(var i = 0 ; i <= vecteur.length-1 ; i++)
+            {
+                sommeCarres += vecteur[i] * vecteur[i]; //On ajoute a la somme chaque vecteur au carré
+            }
+
+            //On calcule la racine carrée et on l'affiche
+            var racineSomme = Math.sqrt(sommeCarre);
+            alert(racineSomme);
+        }
+
+    </script>
+</head>
+
+<body>
+
+<label>Lancer la fonction de calcul de la somme des carrés : </label>
+<input type="button" onclick="cacul()" value="Calculer">
+
+</body>
+
+</html>

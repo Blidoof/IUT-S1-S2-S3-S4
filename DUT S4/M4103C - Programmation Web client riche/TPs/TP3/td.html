@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>TD3 JS</title>
+
+    <script type="text/javascript">
+
+      function monMax(a, b) {
+        resultat = b;
+
+        if(a > b) {
+          resultat = a;
+        }
+
+        return resultat;
+
+      }
+
+      function calculer(a, b) {
+        if (typeof a == "number" && typeof b == "number") {
+          resultat = b;
+
+          if(a > b) {
+            resultat = a;
+          }
+          alert(resultat);
+        }
+      }
+
+      function calculer2() {
+        var a = new Number(document.getElementById("myForm1").elements["saisie1"].value)
+        var b = new Number(document.getElementById("myForm1").elements["saisie2"].value)
+
+        if (!isNaN(a) && !isNaN(b)) {
+          alert((a > b) ? a : b)
+        }
+      }
+
+      function max4(a, b, c, d) {
+        var maxDeuxPremiers = monMax(a, b);
+        var maxDeuxDerniers = monMax(c, d);
+        return monMax(maxDeuxPremiers, maxDeuxDerniers);
+      }
+
+      function max8(a, b, c, d, e, f, g, h) {
+        var maxQuatrePremiers = max4(a, b,c ,d);
+        var maxQuatreDerniers = max4(e, f, g, h);
+        return monMax(maxQuatrePremiers, maxQuatreDerniers);
+      }
+
+      function monMin(a, b) {
+        return (a > b ? b : a )
+      }
+
+      function aleatoire(a, b) {
+        alert(Math.round(Math.random() * (monMax(a,b) - monMin(a,b)) + monMin(a,b)));
+      }
+
+      function win() {
+        var nombre = aleatoire(0,10);
+        alert(nombre);
+        if(nombre == parseInt(document.getElementById("myForm2").elements["saisieNombre"].value)) {
+          alert("gagné");
+        }
+        else {
+          alert("Tu es NUL");
+        }
+      }
+
+      function factorielle(nombre) {
+        var incrementeur = nombre-1;
+        var resultat = nombre;
+
+        while (incrementeur > 0) {
+          resultat = resultat * incrementeur;
+          incrementeur--;
+        }
+        return resultat;
+      }
+
+      var resultatFacto = 1;
+
+      function onForm3Submit() {
+        factoRecursive(parseInt(document.getElementById('myForm3').elements["saisieFacto"].value));
+      }
+
+
+      function factoRecursive(a) {
+        var incrementeur = a;
+        alert(a);
+        if (incrementeur > 0) {
+          resultatFacto = resultatFacto * incrementeur;
+          incrementeur--;
+          factoRecursive(incrementeur);
+        }
+        else {
+          alert(resultatFacto);
+        }
+      }
+
+
+    </script>
+  </head>
+  <body>
+
+    <button type="button" onclick="monMax(5,4)" name="button">Calculer le maximum entre 4 et 5</button> <br>
+    <button type="button" onclick="calculer(5,4)" name="button">vérifier puis calculer le maximum entre 4 et 5</button> <br> <br>
+
+    <form onsubmit="calculer2()" id="myForm1">
+
+      <label for="saisie1">Rentrer un nombre :</label>
+      <input type="number" name="saisie1" id="saisie1" value=""> <br>
+      <label for="saisie2">Rentrer un deuxième nombre :</label>
+      <input type="number" id ="saisie2" name="saisie2" value=""> <br>
+      <button type="button" onClick="calculer(Number(this.form.saisie1.value), Number(this.form.saisie2.value))" name="button">Valider</button>
+
+    </form>
+
+    <button type="button" onclick="max4(1,5,65,9)" name="button">Calculer le max entre 1, 5, 65 et 9 </button> <br> <br>
+
+    <button type="button" onclick="max8(1,5,65,9, 78, 28, 0, 67)" name="button">Calculer le max entre 1, 5, 65, 9, 78, 28, 0 et 67 </button> <br> <br>
+
+    <button type="button" onclick="aleatoire(1,100)" name="button">Voir un nombre aléatoire entre 1 et 100</button>
+
+    <form onsubmit="win()" id="myForm2">
+
+      <label for="saisieNombre">Rentrer un nombre entre 0 et 10 pour voir si il sera le meme que celui généré :</label>
+      <input type="number" name="saisieNombre" id="saisieNombre" value=""> <br>
+      <button type="submit" name="button">Valider</button>
+
+    </form>
+    <button type="button" onclick="factorielle(8)" name="button">Calculer la factorielle de 8</button>
+
+    <form onsubmit="factoRecursive()" id="myForm3">
+
+      <label for="saisieFacto">Rentrer un nombre pour avoir sa factorielle :</label>
+      <input type="number" name="saisieFacto" id="saisieFacto" value=""> <br>
+      <button type="submit" name="button">Valider</button>
+
+    </form>
+
+  </body>
+</html>

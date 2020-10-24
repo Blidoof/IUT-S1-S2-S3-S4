@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>TP5 JS</title>
+    <script>
+
+        function sommeCarresNonRecursive(n)
+        {
+            var sommeCarre = 0;
+            for(var i = 1 ; i <= n ; i++)
+            {
+                sommeCarre += i * i;
+            }
+            alert(sommeCarre);
+        }
+
+        function afficherSommeRecursive(n)
+        {
+            alert(sommeCarresRecursive(n));
+        }
+
+        function sommeCarresRecursive(n)
+        {
+            if(n>1)
+            {
+                return (n*n + sommeCarresRecursive(n-1));
+            }
+            else
+            {
+                return 1;
+            }
+        }
+
+    </script>
+</head>
+
+<body>
+
+<label>Lancer la fonction pour calculer la somme des carrés  n = </label><input type="number" id="monN1">
+<input type="button" onclick="sommeCarresNonRecursive(document.getElementById('monN1').value)" value="Go !">
+<br>
+<label>Lancer la fonction pour calculer récursivement la somme des carrés jusqu'à  n = </label><input type="number" id="monN2">
+<input type="button" onclick="afficherSommeRecursive(document.getElementById('monN2').value)" value="Go !">
+
+</body>
+
+</html>

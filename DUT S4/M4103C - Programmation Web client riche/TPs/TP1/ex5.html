@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>TP1 JS</title>
+    <script type="text/javascript">
+
+      function nbJoursMois() {
+        var mois = prompt("Donnez un mois", "11");
+        var annee =  prompt("Donnez une année", "2018");
+
+        // Conversion des variables récupérées
+        mois = parseFloat(mois);
+        annee = parseFloat(annee);
+
+        var nbJours = new Number;
+
+
+
+        switch (mois) {
+          case 1: nbJours = 31;  break;
+          case 2:
+            if (annee % 4 == 0) {
+              nbJours = 29;
+            }
+            else {
+              nbJours = 28;
+            }
+            break;
+          case 3: nbJours = 31; break;
+          case 4: nbJours = 30; break;
+          case 5: nbJours = 31; break;
+          case 6: nbJours = 30; break;
+          case 7: nbJours = 31; break;
+          case 8: nbJours = 31; break;
+          case 9: nbJours = 30; break;
+          case 10: nbJours = 31; break;
+          case 11: nbJours = 30; break;
+          case 12: nbJours = 31; break;
+        }
+
+        alert("Nombre de jours dans le mois " + mois + " de l'année " + annee + " est : " + nbJours);
+      }
+
+    </script>
+  </head>
+  <body>
+    <button type="button" onclick="nbJoursMois()" name="button">Calculer les jours</button>
+  </body>
+</html>

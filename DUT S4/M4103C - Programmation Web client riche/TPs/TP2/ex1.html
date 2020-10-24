@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>TP2 Javascript</title>
+    <script type="text/javascript">
+      var tab = new Array("Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi", "Dimanche");
+
+      //Methode 1
+      document.write(tab.join(' ; '));
+
+      document.write("<br><br>");
+
+      //Méthode 2
+      for (var i = 0; i < tab.length; i++) {
+        document.write("Jour " + i + " : " + tab[i] + "<br>");
+      }
+    </script>
+  </head>
+  <body>
+
+  </body>
+</html>

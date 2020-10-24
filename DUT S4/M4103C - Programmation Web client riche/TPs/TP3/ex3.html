@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>TP3 JS</title>
+  </head>
+  <body>
+    <img src="wp.jpg" id="photo" onscroll="swap()" onclick="swap()" height="600" length="600" alt="">
+  </body>
+  <script type="text/javascript">
+
+  var tab = Array("wp2.jpg", "wp.jpg", "wp3.jpg");
+  window.onload = swap();
+  setInterval(swap, 2000);
+
+  var position = 0;
+
+  function swap() {
+    if (position > 2) {
+      position = 0;
+    }
+
+    document.getElementById('photo').src = tab[position];
+    position++;
+  }
+
+  </script>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Ecriture d'une fonction avec arguments</title>
+    <script type="text/javascript">
+      var a = new Number(3);
+      var b = new Number(2);
+
+      var tab = new Array(-2, 1, 4);
+
+      function multiplie(y, x = 8) {
+        return x*y;
+      }
+
+      function multiplie2(x = 8) {
+        var resultat = new Array();
+        resultat = tab.map(X => X * x);
+        return resultat;
+      }
+
+      function affiche2() {
+        for(i = 0 ; i < tab.length-1 ; i++) {
+          alert("Résultat :" + multiplie(tab[i], tab[i+1]));
+        }
+      }
+
+      function affiche() {
+        alert("Résultat multiplication avec deux parametres : " + multiplie(a,b));
+        alert("Résultat multiplication avec un parametres : " +  multiplie(b, undefined));
+      }
+
+      function tri (tab) {
+
+        //Affichage du tableau pas encore trié pour comparaison
+        chaine = "Ancien tableau : ";
+        for (var i = 0; i < tab.length; i++) {
+          chaine = chaine + tab[i] + ", "
+        }
+
+        //Tri du tableau avec le tri à bulles
+        for (var i = tab.length-1; i >= 1 ; i--) {
+          for (var j = 0; j <= i-1; j++) {
+            if (tab[j+1] < tab[j]) {
+              var echange = tab[j+1];
+              tab[j+1] = tab[j];
+              tab[j] = echange;
+            }
+          }
+        }
+
+        //Affichage du nouveau tableau, trié
+        chaine2 = "Nouveau tableau : ";
+        for (var i = 0; i < tab.length; i++) {
+          chaine2 = chaine2 + tab[i] + ", "
+        }
+
+        alert(chaine + "\n" + chaine2);
+      }
+
+    </script>
+  </head>
+  <body>
+
+  <h1>Ecriture d'une fonction avec arguments</h1>
+  <p>Cliquez sur le bouton pour pour lancer la fonction affiche&nbsp;: <button onclick="affiche()">Lancer la fonction</button> </p>
+  <p>Double cliquez sur le bouton pour pour lancer la fonction affiche 2&nbsp;: <button ondblclick="affiche2()">Lancer la fonction</button> </p>
+  <p>Survolez le bouton pour pour lancer la fonction tri&nbsp;: <button onmouseover="tri([1,5,3,0])">Lancer la fonction</button> </p>
+
+  </body>
+</html>
