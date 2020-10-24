@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1388935934 source:e:\desktop\algo\m1103\tp4\hanoi\pile.cpp
+	"pile.h"
+	<iostream>
+
+1389112134 e:\desktop\algo\m1103\tp4\hanoi\pile.h
+	<stack>
+	"leFichierOuEstDefiniLeType.h"
+
+1544806791 source:e:\desktop\algo\m1103\tp4\hanoi\main.cpp
+	<iostream>
+	"pile.h"
+	"sousProgrammes.h"
+
+1544806321 e:\desktop\algo\m1103\tp4\hanoi\sousprogrammes.h
+	<iostream>
+	"pile.h"
+
+1544806496 source:e:\desktop\algo\m1103\tp4\hanoi\sousprogrammes.cpp
+	<iostream>
+	"sousProgrammes.h"
+

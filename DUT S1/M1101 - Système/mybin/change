@@ -1,0 +1,6 @@
+#!/bin/bash
+
+ll $1
+touch $1
+ll $1
+

@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1358183948 source:c:\users\jodo kast\desktop\tp3\jeu51\file.cpp
+	"file.h"
+	<iostream>
+
+1544175080 c:\users\jodo kast\desktop\tp3\jeu51\file.h
+	<queue>
+	"jeuDeCartes.h"
+	"leFichierOuEstDefiniLeType.h"
+
+1389555904 source:c:\users\jodo kast\desktop\tp3\jeu51\jeudecartes.cpp
+	<iostream>
+	"jeuDeCartes.h"
+	"file.h"
+	<stdlib.h>
+	<time.h>
+
+1544175001 c:\users\jodo kast\desktop\tp3\jeu51\jeudecartes.h
+
+1512526962 source:c:\users\jodo kast\desktop\tp3\jeu51\main.cpp
+	<iostream>
+	"stdlib.h"
+	"jeuDeCartes.h"
+	"file.h"
+

@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1542383748 source:e:\desktop\algo\m1103\tp1\bibliothequetableaux.cpp
+	"bibliothequeTableaux.h"
+	<iostream>
+
+1542382863 e:\desktop\algo\m1103\tp1\bibliothequetableaux.h
+
+1542383702 source:e:\desktop\algo\m1103\tp1\test_recherchepremiereocc\main.cpp
+	<iostream>
+	"../bibliothequeTableaux.h"
+

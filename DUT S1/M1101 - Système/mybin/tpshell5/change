@@ -1,0 +1,18 @@
+#!/bin/bash
+
+if [ $# -ne 1 ]; then 
+	echo "Il faut un et un seul argument"
+	exit 1
+fi
+
+fichier=$1
+
+if [ ! -f $fichier ]; then
+	echo "Il faut préciser un nom de fichier valide"
+	exit 1
+fi
+
+date -r $fichier
+touch -m $fichier
+date -r $fichier
+exit 0

@@ -1,0 +1,67 @@
+#!/bin/bash
+
+# Nom : Script de sauvegarde
+# Utilisation : ./sauvegarde <fichier1> <fichier2> ...
+# Version : 1.0
+# Développeur : A. Arrosteguy
+# Dernière modification : 07/12/2016
+
+clear
+
+echo "*********************************"
+echo "*    Script de sauvegarde 1.0   *"
+echo "*           TP SYSTÈME          *"
+echo -e "*********************************\n"
+
+BACKUP_DIR="$HOME/sauvegarde"
+
+if [ ! -d "$BACKUP_DIR" ]; then
+	read -p "Votre dossier de sauvegarde n'existe pas, souhaitez-vous en créer un ? [o/n] " reponse
+	if [ "$reponse" == "o" ]; then
+		echo "Création du dossier de sauvegarde..."
+		mkdir "$BACKUP_DIR"
+	elif [ "$reponse" == "n" ]; then
+		exit 1
+	else
+		echo "Création du dossier de sauvegarde..."
+		mkdir "$BACKUP_DIR"
+	fi
+fi
+
+if [ $# -ge 1 ]; then
+	echo "Attribution des permissions d'écriture... (700)"
+	chmod -R 700 $BACKUP_DIR
+	
+	args=$*
+	IFS=' ' read -r -a tab <<< "$args"
+	
+	for i in "${tab[@]}"; do
+		if [ -f "$BACKUP_DIR/$i" ] || [ -d "$BACKUP_DIR/$i" ]; then
+			echo
+			read -p "$i existe déjà, voulez-vous le supprimer ? [O/n] " reponse
+			if [ "$reponse" == "o" ]; then
+				echo "Suppression de $i..."
+				rm -Rf $BACKUP_DIR/$i
+			elif [ "$reponse" == "n" ]; then
+				continue
+			else
+				echo "Suppression de $i..."
+				rm -Rf $BACKUP_DIR/$i
+			fi
+			
+			echo "Écriture de $i..."
+			cp -R $i $BACKUP_DIR/$i
+			
+		else
+			echo "Écriture de $i..."
+			cp -R $i $BACKUP_DIR/$i
+		fi
+	done
+	
+	echo -e "\nRetrait des permissions d'écriture... (500)\n"
+	chmod -R 500 $BACKUP_DIR
+	
+	echo -e "Sauvegarde des fichiers $* terminée.\n"
+else
+	echo -e "Veuillez écrire au moins un argument.\n"
+fi

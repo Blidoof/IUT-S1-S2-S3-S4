@@ -1,0 +1,18 @@
+#!/bin/bash
+
+dir=${!#}
+while getopts "obta" opt; do
+  case $opt in
+    o)
+      rm $dir/*.old
+      ;;
+    b)
+      find $dir -name *.bak |xargs r
+    t)
+      echo "Vous avez sélectionnez l'option t"
+      ;;
+    a)
+      echo "Vous avez sélectionnez l'option a"
+      ;;
+  esac
+done

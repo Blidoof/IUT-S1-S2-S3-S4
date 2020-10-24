@@ -1,0 +1,13 @@
+#!/bin/bash
+
+chmod 700 ~/sauvegarde
+if [ -f ~/sauvegarde/$1 ]
+then
+	touch copie$1
+	mv copie$1 ~/sauvegarde
+else
+	cp $1 ~/sauvegarde
+fi
+
+chmod 000 ~/sauvegarde
+

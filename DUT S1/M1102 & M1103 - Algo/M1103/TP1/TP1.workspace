@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="Workspace">
+		<Project filename="test_recherchePremiereOcc/test_recherchePremiereOcc.cbp" />
+		<Project filename="test_determinerPremierDernier/test_determinerPremierDernier.cbp" />
+	</Workspace>
+</CodeBlocks_workspace_file>

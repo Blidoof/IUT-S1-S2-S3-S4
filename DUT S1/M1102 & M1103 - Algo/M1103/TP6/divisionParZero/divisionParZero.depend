@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1512050532 source:c:\users\jodo kast\desktop\divisionparzero\fichiertexte.cpp
+	"fichiertexte.h"
+
+1512023368 c:\users\jodo kast\desktop\divisionparzero\fichiertexte.h
+	<iostream>
+	<fstream>
+	<string>
+

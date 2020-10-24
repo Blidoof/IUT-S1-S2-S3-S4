@@ -1,0 +1,151 @@
+CREATE TABLE Equipe (
+numEquipe NUMBER (3) PRIMARY KEY,
+nom VARCHAR2 (20),
+capaciteStade NUMBER (6),
+budget NUMBER (6)
+);
+
+CREATE TABLE Joueur (
+numJoueur NUMBER (3) PRIMARY KEY,
+nom VARCHAR2 (20),
+prenom VARCHAR2 (20),
+nationalite VARCHAR2 (20),
+nbSelection NUMBER (3),
+numEquipe NUMBER (3),
+FOREIGN KEY (numEquipe)
+REFERENCES Equipe (numEquipe)
+);
+
+CREATE TABLE Competition (
+numComp NUMBER (3) PRIMARY KEY,
+nom VARCHAR2 (30),
+type VARCHAR2 (20)
+);
+
+CREATE TABLE Participer (
+numComp NUMBER (3),
+numEquipe NUMBER (3),
+resultat NUMBER (2),
+FOREIGN KEY (numComp)
+REFERENCES Competition (numComp),
+FOREIGN KEY (numEquipe)
+REFERENCES Equipe (numEquipe),
+PRIMARY KEY (numComp, numEquipe)
+);
+
+INSERT INTO Equipe
+VALUES (
+1,'Soumoulou',10500,650000
+);
+INSERT INTO Equipe
+VALUES (
+2,'Madrid',5000,100000
+);
+INSERT INTO Equipe
+VALUES (
+3,'Paris Saint-germain',10000,400000
+);
+INSERT INTO Equipe
+VALUES (
+4,'Marseille',12000,140000
+);
+
+INSERT INTO Joueur
+VALUES (
+1,'Messi','Lionel','Argentin',9,1
+);
+INSERT INTO Joueur
+VALUES (
+2,'Payet','Dimitiri','Camerounais',6,1
+);
+INSERT INTO Joueur
+VALUES (
+3,'Griezmann','Antoine','Francais',3,1
+);
+INSERT INTO Joueur
+VALUES (
+4,'Benzema','Karim','Francais',5,2
+);
+INSERT INTO Joueur
+VALUES (
+5,'Deschamps','Didier','Francais',2,2
+);
+INSERT INTO Joueur
+VALUES (
+6,'Akinfeev','Igor','Russe',4,2
+);
+INSERT INTO Joueur
+VALUES (
+7,'Pogba','Paul','Congolais',6,3
+);
+INSERT INTO Joueur
+VALUES (
+8,'Hazard','Eden','Anglais',12,3
+);
+INSERT INTO Joueur
+VALUES (
+9,'Iniesta','Andres','Espagnol',3,3
+);
+INSERT INTO Joueur
+VALUES (
+10,'Bale','Gareth','Américain',16,4
+);
+INSERT INTO Joueur
+VALUES (
+11,'Dembélé','Ousmane','Nigérien',1,4
+);
+INSERT INTO Joueur
+VALUES (
+12,'Ronaldo','Cristiano','Espagnol',26,4
+);
+
+INSERT INTO Competition
+VALUES (
+1,'CoupeFrance','Coupe'
+);
+INSERT INTO Competition
+VALUES (
+2,'LigueDesChampions','Championnat'
+);
+
+INSERT INTO Participer
+VALUES (
+1,1,1
+);
+INSERT INTO Participer
+VALUES (
+1,2,5
+);
+INSERT INTO Participer
+VALUES (
+1,3,3
+);
+INSERT INTO Participer
+VALUES (
+2,1,4
+);
+INSERT INTO Participer
+VALUES (
+2,2,8
+);
+INSERT INTO Participer
+VALUES (
+2,3,1
+);
+INSERT INTO Participer
+VALUES (
+1,4,5
+);
+INSERT INTO Participer
+VALUES (
+2,4,7
+);
+
+SELECT Joueur.nom, prenom
+FROM Joueur JOIN Equipe ON Equipe.numEquipe = Joueur.numEquipe
+WHERE Equipe.nom ='Marseille';
+
+SELECT Competition.nom, type
+FROM Competition JOIN Participer on Participer.numComp = Competition.numComp
+JOIN Equipe on Participer.numEquipe = Equipe.numEquipe
+WHERE Equipe.nom = 'Marseille';

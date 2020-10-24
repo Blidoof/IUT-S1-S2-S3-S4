@@ -1,0 +1,95 @@
+#include <iostream>
+#include "../definitionsTypes.h"
+#include "../bibliothequeTableaux.h"
+
+
+using namespace std;
+
+int main()
+{
+    /** 5 Tableaux d'entiers et 1 tableau de personnes pour tester les tris */
+
+    const unsigned short int TAILLE = 10;
+//    int monTab [TAILLE] = {7, -6, 8, 10, 2, -3, 6, 9, 0, 1}; // non trié sans doublons
+      int monTab [TAILLE] = {7, -6, 8, 10, 2, -6, 10, -6, 7, 1}; // non trié avec doublons sur valeur mini
+//    int monTab [TAILLE] = {-6, -3, 0, 2, 2, 6, 7, 8, 9, 10}; déjà trié croissant
+//    int monTab [TAILLE] = {10, 9, 8, 7, 6, 2, 2, 0, -3, -6}; trié décroissant
+//    int monTab [TAILLE] = {8, 8, 8, 8, 8, 8, 8, 8, 8, 8}; trié (constant)
+
+    UnePersonne monAgenda[TAILLE] =
+    {
+        {"Etcheverry", "Patrick", {2, "allee des alouettes",64100, "Bayonne"}, 3},
+        {"Laplace", "Sophie", {12, "rue des arenes",64240, "Hasparren"}, 3},
+        {"Alimi", "Chakib", {41, "allee de la patisserie",64250, "Itxassou"}, 3},
+        {"Dijon-Duboue", "Simone", {5, "rue des roses",64600, "Anglet"}, 2},
+        {"Marquesuzaa", "Christophe", {8, "avenue d'Anglet",64600, "Anglet"}, 2},
+        {"Corbineau", "Sandrine", {23, "allee des fleurs",64100, "Bayonne"}, 1},
+        {"Urruty", "Damien", {6, "rue des lilas",64240, "Hasparren"}, 2},
+        {"Lopisteguy", "Philippe", {1, "avenue d'Anglet",64600, "Anglet"}, 3},
+        {"Dagorret", "Pantxika", {10, "chemin des bois",64250, "Itxassou"}, 2},
+        {"Bruyere", "Marie", {4, "rue de la musique",64240, "Hasparren"}, 3},
+    };
+
+
+
+    cout << "============================================= " << endl ;
+    cout << "                  TRI BULLE                   " << endl ;
+    cout << "============================================= " << endl << endl << endl;
+
+    cout << "---------- Test sur tableau d'entiers ----------" << endl;
+    // tab, TAILLE >> afficher tableau >> (écran)
+    cout << "AVANT, monTab = " ;
+    afficherTableau(monTab, TAILLE);
+    cout << endl;
+
+    // tab, TAILLE >> tri Bulle CROISSANT >> monTab
+    triBulle(monTab, TAILLE);
+
+    // tab, TAILLE >> afficher tableau >> (écran)
+    cout << "APRES tri croissant, monTab = " ;
+    afficherTableau(monTab, TAILLE);
+    cout << endl << endl ;
+
+    /* Question 17
+    afficherTableau(monAgenda, TAILLE);
+    */
+
+
+	/* Objectifs du test du tri Bulle sur le tableau de personnes :
+       (a) tester le tri_Bulle selon le critère de NOM
+       (b) tester le tri Bulle selon le critère de VILLE
+       (c) déterminer si le tri Bulle est STABLE ou pas :
+           Pour cette vérification, le programme appliquera le test (b) au tableau résultant du test (a).
+           On vérifiera manuellement que les personnes habitant une même VILLE restent triées par ordre alphabétique sur le NOM.
+    */
+
+    /* Question 18
+    cout << "---------- Tableau de personnes ----------" << endl;
+
+    // tab, TAILLE >> afficher tableau >> (écran)
+    cout << "AVANT, mon agenda = " ;
+    afficherTableau(monAgenda, TAILLE);
+    cout << endl;
+
+    //   monAgenda, TAILLE >> tri CROISSANT selon le NOM >> monAgenda
+    triBulle_nom(monAgenda, TAILLE);
+
+    // tab, TAILLE >> afficher tableau >> (écran)
+    cout << "APRES tri croissant selon le NOM , mon agenda = " ;
+    afficherTableau(monAgenda, TAILLE);
+    */
+
+
+    /* Question 20
+    //   monAgenda, TAILLE >> tri CROISSANT selon la VILLE >> monAgenda
+    triBulle_ville(monAgenda, TAILLE);
+
+    // tab, TAILLE >> afficher tableau >> (écran)
+    cout << "APRES tri croissant selon la VILLE , mon agenda = " ;
+    afficherTableau(monAgenda, TAILLE);
+    */
+
+    return 0;
+}
+
+

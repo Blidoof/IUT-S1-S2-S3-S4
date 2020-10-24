@@ -1,0 +1,58 @@
+NOTION D'EDI
+
+	1- Un EDI ( ou IDE en anglais, pour Integrated Development Environment ) est un environnement comprenant un ensemble d'outils permettant au programmeur 
+	d'accomplir sa tâche.
+
+	2- Un compilateur est un outil qui analyse les différentes instructions intégrées au programme pour vérifier si elles sont correctes ( syntaxiquement parlant ).
+
+	3- Le débogueur est un outil qui permet d'analyser le comportement du programme au fur et à mesure de son exécution, ligne par ligne si nécéssaire.
+
+	4- L'éditeur de lien est un outil qui permet de faire le lien entre le programme et les différentes bibliothèques qu'il utilise, il les met donc en relation.
+
+	5- Un gestionnaire de projet permet de mettre en évidence les différents fichiers composant le programme et d'y accéder.
+
+CREER UN PROJET AVEC CODE :: BLOCKS
+
+	1- Les projets de type " console application" peuvent s'éxécuter dans une console.
+
+	2- Le nom du projet ne doit pas comporter ni de caractère espace ni de caractère accentué.
+
+	3 : 	-Mode Debug : Il est utilisé lors d'une phase de mise au point d'un programme, permet de générer des infos précises sur 
+			      le comportement du programme lors de la compilation.
+
+		-Mode Release : Permet, une fois le programme mis au point, d'avoir un programme léger et optimisé.
+
+COMPILER ET EXECUTER UN PROG. AVEC CODE :: BLOCKS
+
+	1- Un programme doit être compilé afin de s'assurer que le code est intelligible pour la machine et que celle ci peut l'éxecuter correctement.
+
+	2- Le bouton qui permet de lancer la compialtion est dans la barre d'outil centrale, et est nommé " build" ( son icône est une roue crantée ).
+
+	3- Le bouton qui permet de lancer l'éxécution d'un programme est dans la barre d'outils centrale, et est nommé " run " ( son icône est une flèche verte ).
+
+	4- Le compilateur nous informe d'erreurs dans le programme ou d'éléments qui nécéssitent notre attention.
+
+	5- Elles permettent de vérifier à quelle ligne se situe notre erreur, et la nature de notre erreur, mais parfois le compilateur peut " se tromper " dans son analyse et 
+	   ne pas indiquer le véritable élément posant problème mais plutot les éléments découlant de cette erreur.
+
+COMPRENDRE LE SQUELETTE D'UN PROGRAMME C++
+
+	1- Iostream représente le nom d'une bibliothèque, dont le contenu est utlisé dans le propgramme.
+
+	2- std Permet d'indiquer un groupe de fonctionalité appartenant à la bibliothèque que l'on souhaite utiliser.
+
+	3- L'éditeur à mis en lien, à partir de la bibliothèque Iostream et de l'espace de noms std, le programme et les fonctionnalités "cout" et "endl".
+
+ANALYSE D'UN CODE SIMPLE
+
+	1-"Double" permet d'indiquer que la variable est un chiffre à virgule, le double slash ( "//" ) permet de signifier que la ligne qui suit est un commentaire et doit être ignorée
+	  par le compilateur. sommeEuros est une variable.
+
+	2- "const double" permet d'indiquer que la variable tauxEurosVersDollars est une donnée prédéfinie et est un chiffre à virgule. Pareil pour " // ".
+
+	3- Il s'agit de la représentation ( en commentaire ) du fonctionnement du traitement calculerSommeDollars avec donnée et résultat.
+
+	4- La ligne de code est le traitement calculerSommeDollars et permet d'obtenir la somme convertie en dollars en fonction du taux de change et de la somme entrée en euros.
+
+	5- La ligne suivante permet d'afficher à l'écran ( avec " cout" ) le résultat du traitement calculerSommeDollars ( " << sommeDollars << " ) sous la forme d'une phrase choisie par
+	   le programmeur, et de revenir à la ligne après cette phrase ( avec "endl" )

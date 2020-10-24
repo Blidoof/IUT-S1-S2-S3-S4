@@ -1,0 +1,20 @@
+#!/bin/bash
+
+fichier=$1
+
+# On vérifie qu'un et un seul argument est fourni
+if [ $# -ne 1 ]; then 
+	echo "USAGE: change FILE"
+	exit 1
+fi
+
+# Test de l'existence du fichier fourni en argument
+if [ ! -f $fichier ]; then
+	echo "ahaha, tu m'as pas eu !"
+	exit 1
+fi
+
+# Affichage et maj de la date de dernière modification
+date -r $fichier
+touch -m $fichier
+date -r $fichier

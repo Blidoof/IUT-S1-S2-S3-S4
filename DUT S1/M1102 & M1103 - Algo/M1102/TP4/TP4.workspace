@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="Workspace">
+		<Project filename="ValidationNote/ValidationNote.cbp" />
+		<Project filename="ValidationNote-Variation/ValidationNote-Variation.cbp" />
+		<Project filename="MoyenneModule-Variante/MoyenneModule-Variante.cbp" />
+		<Project filename="determinernombre+5/determinernombre+5.cbp" />
+		<Project filename="SommeEntiersDe1aN/someEntiersDe1aN.cbp" />
+		<Project filename="MoyenneModule/calculerMoyenneModule.cbp" />
+		<Project filename="DivisionEuclidienne/DivisionEuclidienne.cbp" />
+	</Workspace>
+</CodeBlocks_workspace_file>

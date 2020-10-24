@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="Workspace">
+		<Project filename="AfficherPrixReduit/AfficherPrixReduit.cbp" />
+		<Project filename="calculerPrixReduit/calculerPrixReduit.cbp" />
+		<Project filename="echangeValeur/echangeValeur.cbp" />
+		<Project filename="EchangerCasesTableau/EchangerCasesTableau.cbp" />
+	</Workspace>
+</CodeBlocks_workspace_file>

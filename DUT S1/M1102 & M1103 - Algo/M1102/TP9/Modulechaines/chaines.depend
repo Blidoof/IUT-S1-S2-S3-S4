@@ -1,0 +1,31 @@
+# depslib dependency file v1.0
+1541594705 source:c:\users\jodo kast\desktop\tp9\chaines\chaines.cpp
+	"chaines.h"
+
+1541594855 c:\users\jodo kast\desktop\tp9\chaines\chaines.h
+	<iostream>
+
+1541594753 source:c:\users\jodo kast\desktop\tp9\chaines\testmodule.cpp
+	"chaines.h"
+	<iostream>
+
+1541930814 source:c:\users\jodo kast\desktop\tp9\modulechaines\testmodule.cpp
+	"chaines.h"
+	<iostream>
+
+1541935085 c:\users\jodo kast\desktop\tp9\modulechaines\chaines.h
+	<iostream>
+
+1541935085 source:c:\users\jodo kast\desktop\tp9\modulechaines\chaines.cpp
+	"chaines.h"
+
+1541935085 source:d:\bureau\ecole\6-dut 1\algo\m1102\tp9\modulechaines\chaines.cpp
+	"chaines.h"
+
+1541935085 d:\bureau\ecole\6-dut 1\algo\m1102\tp9\modulechaines\chaines.h
+	<iostream>
+
+1542568257 source:d:\bureau\ecole\6-dut 1\algo\m1102\tp9\modulechaines\testmodule.cpp
+	"chaines.h"
+	<iostream>
+

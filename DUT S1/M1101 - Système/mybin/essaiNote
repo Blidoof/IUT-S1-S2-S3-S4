@@ -1,0 +1,19 @@
+#!/bin/bash
+
+echo "saisir une note"
+read saisie
+if ((16 <= $saisie)) && (($saisie <= 20))
+then 
+echo "tres bien";
+elif ((14 <= $saisie)) && (($saisie<16))
+then
+echo "bien";
+elif ((12 <= $saisie)) && (($saisie<14))
+then
+echo "assez bien";
+elif ((10<= $saisie)) && (($saisie<12))
+then
+echo "moyen";
+else
+echo "insuffisant";
+fi

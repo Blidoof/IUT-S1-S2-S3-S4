@@ -1,0 +1,4 @@
+INSERT INTO Competition
+VALUES (
+3,'Championnat regional','Championnat'
+);

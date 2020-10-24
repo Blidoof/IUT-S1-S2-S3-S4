@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="Workspace">
+		<Project filename="exerciceTpEchangeNombres/exerciceTpEchangeNombres.cbp" />
+		<Project filename="calculerUneReduction/calculerUneReduction.cbp" />
+		<Project filename="convertionHeuresEnSecondes/convertionHeuresEnSecondes.cbp" />
+		<Project filename="tourDeRouesSurUneDistance/tourDeRouesSurUneDistance.cbp" />
+	</Workspace>
+</CodeBlocks_workspace_file>

@@ -1,0 +1,26 @@
+#! /bin/bash
+
+archive_dir=TP6/$(date +"%Y%m%d")
+backup_dir="~/sauvegarde"
+
+# Création du dossier archive s'il n'existe pas
+if [ ! -d $archive_dir ]; then
+	mkdir $archive_dir
+fi
+
+# Archive des fichiers de sauvegarde
+if cp -r $backup_dir/* $archive_dir; then
+	# Nettoyage des fichiers de sauvegarde
+	rm -r $backup_dir/*
+else 
+	echo "Problème rencontré à la copie des fichiers"
+	exit 1
+fi
+
+# Parcours récursif du dossier d'archive
+for file in $( find $archive_dir -type f ); do 
+	# Ajout du contenu des fichiers
+	cat $file >>  ~/Gros_fichier.$$
+	# Ajout du nom des fichiers
+	echo $file >> ~/$0.$$ 
+done

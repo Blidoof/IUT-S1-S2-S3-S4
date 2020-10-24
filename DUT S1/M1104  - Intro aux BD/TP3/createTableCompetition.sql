@@ -1,0 +1,5 @@
+CREATE TABLE Competition (
+numComp NUMBER (3) PRIMARY KEY,
+nom VARCHAR2 (30),
+type VARCHAR2 (20)
+);

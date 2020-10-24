@@ -1,0 +1,11 @@
+#!/bin/bash
+
+echo "saisir la valeur a elever a sa puissance "
+read valeur
+var=$valeur
+
+for i in `seq 2  $valeur`
+do
+let var=($var*$valeur) 
+done
+echo $var

@@ -1,0 +1,31 @@
+# depslib dependency file v1.0
+1543592288 source:e:\desktop\algo\m1103\tp2\bibliothequetableaux.cpp
+	"bibliothequeTableaux.h"
+	<iostream>
+
+1542712666 e:\desktop\algo\m1103\tp2\bibliothequetableaux.h
+	"definitionsTypes.h"
+
+1543464492 e:\desktop\algo\m1103\tp2\definitionstypes.h
+	<iostream>
+
+1543592228 source:e:\desktop\algo\m1103\tp2\test_tribulle\main.cpp
+	<iostream>
+	"../definitionsTypes.h"
+	"../bibliothequeTableaux.h"
+
+1543594347 source:d:\bureau\ecole\6-dut 1\algo\m1103\tp2\bibliothequetableaux.cpp
+	"bibliothequeTableaux.h"
+	<iostream>
+
+1542712666 d:\bureau\ecole\6-dut 1\algo\m1103\tp2\bibliothequetableaux.h
+	"definitionsTypes.h"
+
+1543594052 d:\bureau\ecole\6-dut 1\algo\m1103\tp2\definitionstypes.h
+	<iostream>
+
+1543593911 source:d:\bureau\ecole\6-dut 1\algo\m1103\tp2\test_tribulle\main.cpp
+	<iostream>
+	"../definitionsTypes.h"
+	"../bibliothequeTableaux.h"
+

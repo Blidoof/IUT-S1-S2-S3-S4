@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1542972487 source:e:\desktop\algo\m1103\tp1\bibliothequetableaux.cpp
+	"bibliothequeTableaux.h"
+	<iostream>
+
+1542972216 e:\desktop\algo\m1103\tp1\bibliothequetableaux.h
+
+1542972216 source:e:\desktop\algo\m1103\tp1\test_determinerpremierdernier\main.cpp
+	<iostream>
+	"../bibliothequeTableaux.h"
+
+1543074891 source:d:\bureau\tp1\test_determinerpremierdernier\main.cpp
+	<iostream>
+	"../bibliothequeTableaux.h"
+
+1542972216 d:\bureau\tp1\bibliothequetableaux.h
+
+1543074641 source:d:\bureau\tp1\bibliothequetableaux.cpp
+	"bibliothequeTableaux.h"
+	<iostream>
+

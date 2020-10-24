@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="Workspace">
+		<Project filename="jeu51/jeu51.cbp" />
+		<Project filename="test_file/test_file.cbp" />
+	</Workspace>
+</CodeBlocks_workspace_file>

@@ -1,0 +1,32 @@
+#!/bin/bash
+
+dir=${@[-1]}
+
+# Test d'existence du répertoire passé en argument
+if [ ! -d $dir ]; then
+	echo "Veuillez préciser un répertoire de travail valide en dernier argument "
+	exit 1
+fi
+
+
+while getopts "bota" opt; do
+case $opt in
+   b)
+	find $dir -name *.bak -print0  | xargs -0 -r  rm
+      ;;
+   o)
+	find $dir -name *.old -print0  | xargs -0 -r  rm
+      ;;
+   t)
+	find $dir -name ~* -print0  | xargs -0 -r  rm
+      ;;
+   a)
+	find $dir -name *.bak -print0  | xargs -0 -r  rm
+	find $dir -name *.old -print0  | xargs -0 -r  rm
+	find $dir -name ~* -print0  | xargs -0 -r  rm
+      ;;
+    *)
+        echo "USAGE : myrm -b -o -t -a directory"
+    ;;
+esac
+done

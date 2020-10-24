@@ -1,0 +1,23 @@
+#!/bin/bash
+
+if [ ! -d Exo3 ]; then
+	mkdir Exo3
+fi
+
+chiffre=( "Un" "Deux" "Trois" "Quatre" "Cinq" "Six" "Sept" "Huit" "Neuf" "Dix" )
+ieme=( "Première" "Deuxième" "Troisième" "Quatrième" "Cinquième" "Sixième" "Septième" "Huitième" "Neuvième" "Dixième" )
+
+for i in $( seq 0 9 ); do
+	echo "${chiffre[$i]} contient ${ieme[$i]} ligne" > "Exo3/${chiffre[$i]}"
+done
+
+# Autre façon de parcourir les tableaux, en s'affranchissant des indices
+#for element in ${chiffre[@]}; do
+#	echo "Cette ligne contient $element" >> Exo3/$element
+#done
+
+# Une autre façon de faire avec les tabeaux associatifs
+#les2=( ['Un']="Première" ['deux']="Deuxième" ['Trois']="Troisième" )
+#for elem in ${!les2[*]} ; do
+#	echo "${elem} contient ${les2[${elem}]} ligne" >> Exo3/${elem} 
+#done 

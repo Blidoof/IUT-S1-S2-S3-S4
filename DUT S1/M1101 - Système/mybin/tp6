@@ -1,0 +1,19 @@
+#!/bin/bash
+
+DATE=$(date +%Y-%m-%d)
+
+if [ ! -d ~/tp6/$DATE ]
+then
+	mkdir ~/tp6/$DATE
+fi
+
+touch ~/Gros_fichier.$$
+touch ~/${basename "$0"}.$$
+
+for fichier in $( $DATE -type f)
+do
+	cat $fichier > ~/Gros_fichier.$$
+	echo $fichier > ${basename "$0"}.$$
+	mv ~/sauvegarde/fichier ~/tp6/$DATE
+done
+	

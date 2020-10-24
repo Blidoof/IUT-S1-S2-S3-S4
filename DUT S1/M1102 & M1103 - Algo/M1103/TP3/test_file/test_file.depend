@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1358183948 source:c:\users\jodo kast\desktop\tp3\jeu51\file.cpp
+	"file.h"
+	<iostream>
+
+1544173122 c:\users\jodo kast\desktop\tp3\jeu51\file.h
+	<queue>
+	"leFichierOuEstDefiniLeType.h"
+

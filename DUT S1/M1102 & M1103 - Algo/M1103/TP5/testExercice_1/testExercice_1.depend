@@ -1,0 +1,30 @@
+# depslib dependency file v1.0
+1483534278 source:c:\users\jodo kast\desktop\tp5\fichiertexte.cpp
+	"fichiertexte.h"
+
+1483534222 c:\users\jodo kast\desktop\tp5\fichiertexte.h
+	<iostream>
+	<fstream>
+
+1545225337 source:c:\users\jodo kast\desktop\tp5\testexercice_1\main.cpp
+	<iostream>
+	"../fichierTexte.h"
+	"../sousProgrammes.h"
+
+1452098208 c:\users\jodo kast\desktop\tp5\sousprogrammes.h
+
+1388935934 source:c:\users\jodo kast\desktop\tp5\pile.cpp
+	"pile.h"
+	<iostream>
+
+1545225887 c:\users\jodo kast\desktop\tp5\pile.h
+	<stack>
+	<iostream>
+	"leFichierOuEstDefiniLeType.h"
+
+1545232016 source:c:\users\jodo kast\desktop\tp5\sousprogrammes.cpp
+	<iostream>
+	"pile.h"
+	"fichierTexte.h"
+	"sousProgrammes.h"
+

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="Workspace">
+		<Project filename="E:/Desktop/Algo/M1102/TP6/SaisirTableau/SaisirTableau.cbp" />
+		<Project filename="E:/Desktop/Algo/M1102/TP6/IncrementationValeur/IncrementationValeur.cbp" />
+		<Project filename="E:/Desktop/Algo/M1102/TP6/ComptageValeursNegatives/ComptageValeursNegatives.cbp" />
+		<Project filename="E:/Desktop/Algo/M1102/TP6/MoyenneValeursTableau/MoyenneValeursTableau.cbp" />
+		<Project filename="E:/Desktop/Algo/M1102/TP6/EffectifGroupeTD/EffectifGroupeTD.cbp" />
+		<Project filename="E:/Desktop/Algo/M1102/TP6/InversionTableau/InversionTableau.cbp" />
+		<Project filename="E:/Desktop/Algo/M1102/TP6/AffichageGrilleMorpion/AffichageGrilleMorpion.cbp" />
+		<Project filename="E:/Desktop/Algo/M1102/TP6/RechercheVoyelle/RechercheVoyelle.cbp" />
+	</Workspace>
+</CodeBlocks_workspace_file>

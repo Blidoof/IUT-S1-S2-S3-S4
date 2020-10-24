@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1512050532 source:c:\users\jodo kast\desktop\td6pluviometrie\fichiertexte.cpp
+	"fichiertexte.h"
+
+1512023368 c:\users\jodo kast\desktop\td6pluviometrie\fichiertexte.h
+	<iostream>
+	<fstream>
+	<string>
+
+1546835777 source:c:\users\jodo kast\desktop\td6pluviometrie\main.cpp
+	<iostream>
+	"stdlib.h"
+	"fichierTexte.h"
+	"sousProgrammes.h"
+
+1546835654 c:\users\jodo kast\desktop\td6pluviometrie\sousprogrammes.h
+	<iostream>
+

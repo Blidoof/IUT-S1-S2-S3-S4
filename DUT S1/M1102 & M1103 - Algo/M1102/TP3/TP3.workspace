@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="Workspace">
+		<Project filename="ValidationModule/ValidationModule.cbp" />
+		<Project filename="SigneNombre/SigneNombre.cbp" />
+		<Project filename="GroupeTD/GroupeTD.cbp" />
+		<Project filename="Max2Nombres/Max2Nombres.cbp" />
+		<Project filename="ValidationSemestre1/ValidationSemestre1.cbp" />
+		<Project filename="calculette/calculette.cbp" />
+		<Project filename="Max3Nombres/Max3Nombres.cbp" />
+	</Workspace>
+</CodeBlocks_workspace_file>

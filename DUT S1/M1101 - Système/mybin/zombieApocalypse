@@ -1,0 +1,14 @@
+#!/bin/bash
+
+echo "Combien de zombies vous attaque?"
+read -r zombie
+
+newZombie=1
+
+for (( i=0 ; i<$zombie ; i++ ))
+do
+	let newZombie=$newZombie*$zombie
+done
+echo "Horreur! Ils sont maintennant" $newZombie
+
+

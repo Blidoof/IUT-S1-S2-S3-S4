@@ -1,0 +1,19 @@
+body
+{background-repeat: repeat;
+color: #303030; 
+text-align: justify;
+font-size:14px;}
+
+.titreH1
+{color: black; 
+font-size:18px; 
+text-align: center;}
+
+.introduction
+{font-style: italic;}
+
+#nomAuteur
+{color: red}
+
+h1:nth-child(n+3)
+{font-style: italic; font-size:89px;}

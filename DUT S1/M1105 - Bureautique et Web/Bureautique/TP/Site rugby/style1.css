@@ -1,0 +1,27 @@
+body
+{background-attachment: fixed;
+text:"#203294"; font-family: "Arial", "Times New Roman", "Serif";}
+
+.titreH1
+{color:"#FF0000"; font-family: "Times New Roman"; font-weight: bold ;}
+
+.titreH2
+{color:"#00FF00"; font-family: "Times New Roman"; font-weight: bold ;}
+
+.emH1
+{background-color: #FFFF00;}
+
+.emH2
+{text-decoration: overline;}
+
+a
+{color: blue}
+
+a:hover
+{color: #00CCCB;}
+
+a:visited
+{color: #660099;}
+
+a:active 
+{color: #A91101;}
