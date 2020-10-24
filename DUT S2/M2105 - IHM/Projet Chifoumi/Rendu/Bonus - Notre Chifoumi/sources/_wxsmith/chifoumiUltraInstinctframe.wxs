@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<object class="wxFrame" name="chifoumiUltraInstinctFrame">
+		<size>456,422</size>
+		<id_arg>0</id_arg>
+		<object class="wxStaticText" name="ID_LABELJ1" variable="labelJ1" member="yes">
+			<label>Vous</label>
+			<pos>64,16</pos>
+			<font>
+				<size>14</size>
+				<style>normal</style>
+				<weight>bold</weight>
+				<underlined>0</underlined>
+				<family>swiss</family>
+				<face>Arial Narrow</face>
+			</font>
+		</object>
+		<object class="wxStaticText" name="ID_LABELJ2" variable="labelJ2" member="yes">
+			<label>La machine</label>
+			<pos>320,16</pos>
+			<font>
+				<size>14</size>
+				<style>normal</style>
+				<weight>bold</weight>
+				<underlined>0</underlined>
+				<family>swiss</family>
+				<face>Arial Narrow</face>
+			</font>
+		</object>
+		<object class="wxStaticText" name="ID_SCOREJ1" variable="scoreJ1" member="yes">
+			<label>0</label>
+			<pos>80,48</pos>
+			<font>
+				<size>12</size>
+				<style>normal</style>
+				<weight>bold</weight>
+				<underlined>0</underlined>
+				<family>swiss</family>
+				<face>Arial Narrow</face>
+			</font>
+		</object>
+		<object class="wxStaticText" name="ID_SCOREJ2" variable="scoreJ2" member="yes">
+			<label>0</label>
+			<pos>368,48</pos>
+			<font>
+				<size>12</size>
+				<style>normal</style>
+				<weight>bold</weight>
+				<underlined>0</underlined>
+				<family>swiss</family>
+				<face>Arial Narrow</face>
+			</font>
+		</object>
+		<object class="wxBitmapButton" name="ID_BOUTONCISEAUX" variable="boutonCiseaux" member="yes">
+			<bitmap>E:\Desktop\IHM\ProjetChifoumi\chifoumiUltraInstinct\ciseau.gif</bitmap>
+			<pos>320,240</pos>
+			<size>104,112</size>
+			<handler function="OnClickboutonCiseaux" entry="EVT_BUTTON" />
+		</object>
+		<object class="wxStaticBitmap" name="ID_IDSIGNE2" variable="signeJ2" member="yes">
+			<bitmap>E:\Desktop\IHM\ProjetChifoumi\chifoumiUltraInstinct\rien.gif</bitmap>
+			<pos>320,88</pos>
+			<size>104,112</size>
+		</object>
+		<object class="wxStaticBitmap" name="ID_SIGNEJ1" variable="signeJ1" member="yes">
+			<bitmap>E:\Desktop\IHM\ProjetChifoumi\chifoumiUltraInstinct\rien.gif</bitmap>
+			<pos>32,88</pos>
+			<size>104,112</size>
+		</object>
+		<object class="wxStaticBitmap" name="ID_LOGOVERSUS" variable="imageVersus" member="yes">
+			<bitmap>E:\Desktop\IHM\ProjetChifoumi\chifoumiUltraInstinct\versus.gif</bitmap>
+			<pos>176,88</pos>
+			<size>104,112</size>
+		</object>
+		<object class="wxBitmapButton" name="ID_BOUTONFEUILLE" variable="boutonPapier" member="yes">
+			<bitmap>E:\Desktop\IHM\ProjetChifoumi\chifoumiUltraInstinct\papier.gif</bitmap>
+			<pos>176,240</pos>
+			<size>104,112</size>
+			<handler function="OnClickboutonPapier" entry="EVT_BUTTON" />
+		</object>
+		<object class="wxBitmapButton" name="ID_BOUTONPIERRE" variable="boutonPierre" member="yes">
+			<bitmap>E:\Desktop\IHM\ProjetChifoumi\chifoumiUltraInstinct\pierre.gif</bitmap>
+			<pos>32,240</pos>
+			<size>104,112</size>
+			<handler function="OnClickboutonPierre" entry="EVT_BUTTON" />
+		</object>
+		<object class="wxButton" name="ID_BUTTONNOUVELLEPARTIE" variable="boutonNouvellePartie" member="yes">
+			<label>Nouvelle Partie</label>
+			<pos>328,384</pos>
+			<size>112,24</size>
+			<handler function="OnClickboutonNouvellePartie" entry="EVT_BUTTON" />
+		</object>
+		<object class="wxStaticBox" name="ID_STATICBOX1" variable="StaticBox1" member="yes">
+			<label>Label</label>
+			<pos>648,368</pos>
+		</object>
+		<object class="wxStaticBox" name="ID_STATICBOX2" variable="StaticBox2" member="yes">
+			<label>Pour jouer, cliquez sur une image ci-dessous :</label>
+			<pos>16,216</pos>
+			<size>424,152</size>
+		</object>
+	</object>
+</wxsmith>

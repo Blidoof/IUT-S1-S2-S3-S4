@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="ARGILO" company="" webLink="" view-date="2019-03-11" view-index="0" gantt-divider-location="383" resource-divider-location="332" version="2.8.8" locale="fr_FR">
+    <description><![CDATA[Projet imaginé par Anne-Marie Cazaurang pour cours gestion de projet informatique]]></description>
+    <view zooming-state="default:6" id="gantt-chart">
+        <field id="tpd3" name="Nom" width="143" order="0"/>
+        <field id="tpd4" name="Date de début" width="111" order="1"/>
+        <field id="tpd5" name="Date de fin" width="110" order="2"/>
+        <option id="taskLabelUp" value="name"/>
+        <option id="taskLabelDown" value="length"/>
+        <option id="color.recent"><![CDATA[#ff33cc #99ff66 #9999ff #eeeeee]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nom" width="110" order="0"/>
+        <field id="1" name="Rôle par défaut" width="109" order="1"/>
+        <field id="5" name="Taux normal" width="109" order="2"/>
+    </view>
+    <!-- -->
+    <calendars base-id="france">
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+        <date year="2019" month="5" date="1" type="HOLIDAY"><![CDATA[Fête du travail]]></date>
+        <date year="2019" month="5" date="8" type="HOLIDAY"><![CDATA[Armistice]]></date>
+        <date year="2019" month="5" date="30" type="HOLIDAY"><![CDATA[Ascension]]></date>
+        <date year="2019" month="6" date="10" type="HOLIDAY"><![CDATA[Lundi de Pentecôte]]></date>
+        <date year="2019" month="7" date="14" type="HOLIDAY"><![CDATA[Fête Nationale]]></date>
+        <date year="2019" month="5" date="31" type="HOLIDAY"><![CDATA[Pont Ascension]]></date>
+        <date year="2019" month="6" date="25" type="HOLIDAY"><![CDATA[anniv. Directeur]]></date>
+        <date year="2019" month="6" date="24" type="HOLIDAY"><![CDATA[RTT obligatoire]]></date>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+            <taskproperty id="tpc0" name="" type="custom" valuetype="text"/>
+        </taskproperties>
+        <task id="120" name="A - mise en place projet" color="#9999ff" meeting="false" start="2019-04-29" duration="1" complete="0" thirdDate="2019-04-29" thirdDate-constraint="0" expand="true">
+            <depend id="1" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="1" name="B - analyse détaillée" color="#9999ff" meeting="false" start="2019-04-30" duration="9" complete="0" thirdDate="2019-04-29" thirdDate-constraint="0" expand="true">
+            <depend id="2" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="2" name="C - cahier des charges" color="#9999ff" meeting="false" start="2019-05-15" duration="3" complete="0" thirdDate="2019-04-29" thirdDate-constraint="0" expand="true">
+            <depend id="3" type="2" difference="0" hardness="Strong"/>
+            <depend id="10" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="3" name="D - dév1" color="#9999ff" meeting="false" start="2019-05-20" duration="10" complete="0" thirdDate="2019-05-20" thirdDate-constraint="0" expand="true">
+            <depend id="7" type="2" difference="0" hardness="Strong"/>
+            <task id="180" name="D1- dév 1 80%" color="#8cb6ce" meeting="false" start="2019-05-20" duration="8" complete="0" thirdDate="2019-05-20" thirdDate-constraint="0" expand="true">
+                <depend id="4" type="2" difference="0" hardness="Strong"/>
+                <depend id="184" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="184" name="D2 - dév1 20%" color="#8cb6ce" meeting="false" start="2019-06-03" duration="2" complete="0" thirdDate="2019-05-20" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="4" name="E - tests dév1" color="#9999ff" meeting="false" start="2019-06-03" duration="1" complete="0" thirdDate="2019-06-03" thirdDate-constraint="0" expand="true">
+            <depend id="5" type="2" difference="0" hardness="Strong"/>
+            <depend id="7" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="5" name="F - dév2" color="#9999ff" meeting="false" start="2019-06-04" duration="12" complete="0" thirdDate="2019-04-29" thirdDate-constraint="0" expand="true">
+            <depend id="7" type="2" difference="0" hardness="Strong"/>
+            <task id="235" name="F1 - dév2 3/4" color="#8cb6ce" meeting="false" start="2019-06-04" duration="9" complete="0" thirdDate="2019-06-04" thirdDate-constraint="0" expand="true">
+                <depend id="6" type="2" difference="0" hardness="Strong"/>
+                <depend id="236" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="236" name="F2 - dév2 1/4" color="#8cb6ce" meeting="false" start="2019-06-18" duration="3" complete="0" thirdDate="2019-06-04" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="6" name="G - tests dév2" color="#9999ff" meeting="false" start="2019-06-18" duration="4" complete="0" thirdDate="2019-06-18" thirdDate-constraint="0" expand="true">
+            <depend id="7" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="7" name="H - tests dév" color="#9999ff" meeting="false" start="2019-06-26" duration="2" complete="0" thirdDate="2019-06-20" thirdDate-constraint="0" expand="true">
+            <depend id="8" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="8" name="I - intégration PGI" color="#9999ff" meeting="false" start="2019-06-28" duration="2" complete="0" thirdDate="2019-04-29" thirdDate-constraint="0" expand="true">
+            <depend id="9" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="9" name="J - tests application" color="#9999ff" meeting="false" start="2019-07-02" duration="2" complete="0" thirdDate="2019-04-29" thirdDate-constraint="0" expand="true">
+            <depend id="13" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="10" name="K - étude cde matériel" color="#9999ff" meeting="false" start="2019-05-20" duration="3" complete="0" thirdDate="2019-04-29" thirdDate-constraint="0" expand="true">
+            <depend id="11" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="11" name="L - installation matériel" color="#9999ff" meeting="false" start="2019-05-23" duration="4" complete="0" thirdDate="2019-04-29" thirdDate-constraint="0" expand="true">
+            <depend id="12" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="12" name="M - recette technique" color="#9999ff" meeting="false" start="2019-05-29" duration="2" complete="0" thirdDate="2019-04-29" thirdDate-constraint="0" expand="true">
+            <depend id="13" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="13" name="N - install appli" color="#9999ff" meeting="false" start="2019-07-04" duration="1" complete="0" thirdDate="2019-07-02" thirdDate-constraint="0" expand="true">
+            <depend id="14" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="14" name="O - recette projet" color="#9999ff" meeting="false" start="2019-07-05" duration="5" complete="0" thirdDate="2019-04-29" thirdDate-constraint="0" expand="true">
+            <depend id="15" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="15" name="P - modifs post recette" color="#9999ff" meeting="false" start="2019-07-12" duration="2" complete="0" thirdDate="2019-04-29" thirdDate-constraint="0" expand="true">
+            <depend id="16" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="16" name="Q - livraison" color="#9999ff" meeting="false" start="2019-07-16" duration="1" complete="0" thirdDate="2019-04-29" thirdDate-constraint="0" expand="true"/>
+        <task id="17" name="R - reporting et suivi" color="#ff33cc" meeting="true" start="2019-04-29" duration="0" complete="0" thirdDate="2019-04-30" thirdDate-constraint="0" expand="true">
+            <notes><![CDATA[tous les lundis matins (0,5 jour ou moins)]]></notes>
+        </task>
+    </tasks>
+    <resources>
+        <custom-property-definition id="5" name="coût" type="double" default-value="180.0"/>
+    </resources>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles roleset-name="SoftwareDevelopment"/>
+    <roles>
+        <role id="0" name="Technicien"/>
+    </roles>
+</project>

@@ -1,0 +1,6 @@
+Nom de la connexion : BaseDeDonneesOracle
+Nom d'utilisateur : amurillo
+mot de passe : amurillo
+type de connection : TNS
+Alias de réseau : BASEINFO
+
